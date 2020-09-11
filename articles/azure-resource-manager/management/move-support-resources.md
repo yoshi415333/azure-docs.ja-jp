@@ -205,86 +205,86 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | domainservices | いいえ | いいえ |
-> | domainservices / oucontainer | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | domainservices | × | × |
+> | domainservices / oucontainer | × | × |
+> | locations | × | × |
+> | locations / operationresults | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftaadiam"></a>microsoft.aadiam
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | diagnosticsettings | いいえ | いいえ |
-> | diagnosticsettingscategories | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | privatelinkforazuread | はい | はい |
-> | tenants | はい | はい |
+> | diagnosticsettings | × | × |
+> | diagnosticsettingscategories | × | × |
+> | operations | × | × |
+> | privatelinkforazuread | ○ | ○ |
+> | tenants | ○ | ○ |
 
 ## <a name="microsoftaddons"></a>Microsoft.Addons
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | supportproviders | いいえ | いいえ |
+> | operationresults | × | × |
+> | operations | × | × |
+> | supportproviders | × | × |
 
 ## <a name="microsoftadhybridhealthservice"></a>Microsoft.ADHybridHealthService
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | aadsupportcases | いいえ | いいえ |
-> | addsservices | いいえ | いいえ |
-> | agents | いいえ | いいえ |
-> | anonymousapiusers | いいえ | いいえ |
-> | configuration | いいえ | いいえ |
-> | logs | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | reports | いいえ | いいえ |
-> | servicehealthmetrics | いいえ | いいえ |
-> | services | いいえ | いいえ |
+> | aadsupportcases | × | × |
+> | addsservices | × | × |
+> | agents | × | × |
+> | anonymousapiusers | × | × |
+> | configuration | × | × |
+> | logs | × | × |
+> | operations | × | × |
+> | reports | × | × |
+> | servicehealthmetrics | × | × |
+> | services | × | × |
 
 ## <a name="microsoftadvisor"></a>Microsoft.Advisor
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | configuration | いいえ | いいえ |
-> | generaterecommendations | いいえ | いいえ |
-> | metadata | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | recommendations | いいえ | いいえ |
-> | suppressions | いいえ | いいえ |
+> | configuration | × | × |
+> | generaterecommendations | × | × |
+> | metadata | × | × |
+> | operations | × | × |
+> | recommendations | × | × |
+> | suppressions | × | × |
 
 ## <a name="microsoftalertsmanagement"></a>Microsoft.AlertsManagement
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | actionrules | はい | はい |
-> | alerts | いいえ | いいえ |
-> | alertslist | いいえ | いいえ |
-> | alertsmetadata | いいえ | いいえ |
-> | alertssummary | いいえ | いいえ |
-> | alertssummarylist | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | smartdetectoralertrules | はい | はい |
-> | smartgroups | いいえ | いいえ |
+> | actionrules | ○ | ○ |
+> | alerts | × | × |
+> | alertslist | × | × |
+> | alertsmetadata | × | × |
+> | alertssummary | × | × |
+> | alertssummarylist | × | × |
+> | operations | × | × |
+> | smartdetectoralertrules | ○ | ○ |
+> | smartgroups | × | × |
 
 ## <a name="microsoftanalysisservices"></a>Microsoft.AnalysisServices
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | servers | はい | はい |
+> | locations | × | × |
+> | locations / checknameavailability | × | × |
+> | locations / operationresults | × | × |
+> | locations / operationstatuses | × | × |
+> | operations | × | × |
+> | servers | ○ | ○ |
 
 ## <a name="microsoftapimanagement"></a>Microsoft.ApiManagement
 
@@ -294,39 +294,39 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checkfeedbackrequired | いいえ | × |
-> | checknameavailability | いいえ | × |
-> | checkservicenameavailability | いいえ | × |
-> | operations | いいえ | × |
-> | reportfeedback | いいえ | × |
-> | サービス (service) | はい | ○ |
-> | validateservicename | いいえ | × |
+> | checkfeedbackrequired | × | × |
+> | checknameavailability | × | × |
+> | checkservicenameavailability | × | × |
+> | operations | × | × |
+> | reportfeedback | × | × |
+> | サービス (service) | ○ | ○ |
+> | validateservicename | × | × |
 
 ## <a name="microsoftappconfiguration"></a>Microsoft.AppConfiguration
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | configurationstores | はい | はい |
-> | configurationstores / eventgridfilters | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operationsstatus | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | configurationstores | ○ | ○ |
+> | configurationstores / eventgridfilters | × | × |
+> | locations | × | × |
+> | locations / operationsstatus | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftappplatform"></a>Microsoft.AppPlatform
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / operationstatus | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | spring | はい | はい |
-> | spring / apps | いいえ | いいえ |
-> | spring / apps / deployments | いいえ | いいえ |
+> | locations | × | × |
+> | locations / checknameavailability | × | × |
+> | locations / operationresults | × | × |
+> | locations / operationstatus | × | × |
+> | operations | × | × |
+> | spring | ○ | ○ |
+> | spring / apps | × | × |
+> | spring / apps / deployments | × | × |
 
 ## <a name="microsoftappservice"></a>Microsoft.AppService
 
@@ -336,42 +336,42 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | apiapps | いいえ | × |
-> | appidentities | いいえ | × |
-> | gateways | いいえ | いいえ |
+> | apiapps | × | × |
+> | appidentities | × | × |
+> | gateways | × | × |
 
 ## <a name="microsoftattestation"></a>Microsoft.Attestation
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | attestationproviders | はい | はい |
-> | operations | いいえ | いいえ |
+> | attestationproviders | ○ | ○ |
+> | operations | × | × |
 
 ## <a name="microsoftauthorization"></a>Microsoft.Authorization
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checkaccess | いいえ | いいえ |
-> | classicadministrators | いいえ | いいえ |
-> | dataaliases | いいえ | いいえ |
-> | denyassignments | いいえ | いいえ |
-> | elevateaccess | いいえ | いいえ |
-> | findorphanroleassignments | いいえ | いいえ |
-> | locks | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | operationstatus | いいえ | いいえ |
-> | 権限 | いいえ | いいえ |
-> | policyassignments | いいえ | いいえ |
-> | policydefinitions | いいえ | いいえ |
-> | policysetdefinitions | いいえ | いいえ |
-> | privatelinkassociations | いいえ | いいえ |
-> | provideroperations | いいえ | いいえ |
-> | resourcemanagementprivatelinks | いいえ | いいえ |
-> | roleassignments | いいえ | いいえ |
-> | roleassignmentsusagemetrics | いいえ | いいえ |
-> | roledefinitions | いいえ | いいえ |
+> | checkaccess | × | × |
+> | classicadministrators | × | × |
+> | dataaliases | × | × |
+> | denyassignments | × | × |
+> | elevateaccess | × | × |
+> | findorphanroleassignments | × | × |
+> | locks | × | × |
+> | operations | × | × |
+> | operationstatus | × | × |
+> | 権限 | × | × |
+> | policyassignments | × | × |
+> | policydefinitions | × | × |
+> | policysetdefinitions | × | × |
+> | privatelinkassociations | × | × |
+> | provideroperations | × | × |
+> | resourcemanagementprivatelinks | × | × |
+> | roleassignments | × | × |
+> | roleassignmentsusagemetrics | × | × |
+> | roledefinitions | × | × |
 
 ## <a name="microsoftautomation"></a>Microsoft.Automation
 
@@ -383,15 +383,15 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | automationaccounts | ○ | はい |
-> | automationaccounts/configurations | ○ | はい |
-> | automationaccounts / jobs | × | いいえ |
-> | automationaccounts / privateendpointconnectionproxies | × | いいえ |
-> | automationaccounts / privateendpointconnections | × | いいえ |
+> | automationaccounts | ○ | ○ |
+> | automationaccounts/configurations | ○ | ○ |
+> | automationaccounts / jobs | × | × |
+> | automationaccounts / privateendpointconnectionproxies | × | × |
+> | automationaccounts / privateendpointconnections | × | × |
 > | automationaccounts / privatelinkresources | × | × |
 > | automationaccounts/runbooks | ○ | ○ |
-> | automationaccounts / softwareupdateconfigurations | × | いいえ |
-> | automationaccounts / webhooks | × | いいえ |
+> | automationaccounts / softwareupdateconfigurations | × | × |
+> | automationaccounts / webhooks | × | × |
 > | operations | × | × |
 
 ## <a name="microsoftavs"></a>Microsoft.AVS
@@ -399,230 +399,230 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / checkquotaavailability | いいえ | いいえ |
-> | locations / checktrialavailability | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | privateclouds | はい | はい |
-> | privateclouds / clusters | いいえ | いいえ |
+> | locations | × | × |
+> | locations / checkquotaavailability | × | × |
+> | locations / checktrialavailability | × | × |
+> | operations | × | × |
+> | privateclouds | ○ | ○ |
+> | privateclouds / clusters | × | × |
 
 ## <a name="microsoftazureactivedirectory"></a>Microsoft.AzureActiveDirectory
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | b2cdirectories | はい | はい |
-> | b2ctenants | いいえ | いいえ |
-> | checknameavailability | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | b2cdirectories | ○ | ○ |
+> | b2ctenants | × | × |
+> | checknameavailability | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftazuredata"></a>Microsoft.AzureData
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | datacontrollers | いいえ | いいえ |
-> | hybriddatamanagers | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | postgresinstances | いいえ | いいえ |
-> | sqlinstances | いいえ | いいえ |
-> | sqlmanagedinstances | いいえ | いいえ |
-> | sqlserverinstances | いいえ | いいえ |
-> | sqlserverregistrations | はい | はい |
-> | sqlserverregistrations / sqlservers | いいえ | いいえ |
+> | datacontrollers | × | × |
+> | hybriddatamanagers | × | × |
+> | operations | × | × |
+> | postgresinstances | × | × |
+> | sqlinstances | × | × |
+> | sqlmanagedinstances | × | × |
+> | sqlserverinstances | × | × |
+> | sqlserverregistrations | ○ | ○ |
+> | sqlserverregistrations / sqlservers | × | × |
 
 ## <a name="microsoftazurestack"></a>Microsoft.AzureStack
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | cloudmanifestfiles | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | registrations | はい | はい |
-> | registrations / customersubscriptions | いいえ | いいえ |
-> | registrations / products | いいえ | いいえ |
+> | cloudmanifestfiles | × | × |
+> | operations | × | × |
+> | registrations | ○ | ○ |
+> | registrations / customersubscriptions | × | × |
+> | registrations / products | × | × |
 
 ## <a name="microsoftazurestackhci"></a>Microsoft.AzureStackHCI
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | clusters | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | clusters | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftbatch"></a>Microsoft.Batch
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | batchaccounts | はい | はい |
-> | locations | いいえ | いいえ |
-> | locations / accountoperationresults | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | locations / quotas | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | batchaccounts | ○ | ○ |
+> | locations | × | × |
+> | locations / accountoperationresults | × | × |
+> | locations / checknameavailability | × | × |
+> | locations / quotas | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftbilling"></a>Microsoft.Billing
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | billingaccounts | いいえ | いいえ |
-> | billingaccounts / agreements | いいえ | いいえ |
-> | billingaccounts / billingpermissions | いいえ | いいえ |
-> | billingaccounts / billingprofiles | いいえ | いいえ |
-> | billingaccounts / billingprofiles / availablebalance | いいえ | いいえ |
-> | billingaccounts / billingprofiles / billingpermissions | いいえ | いいえ |
-> | billingaccounts / billingprofiles / billingroleassignments | いいえ | いいえ |
-> | billingaccounts / billingprofiles / billingroledefinitions | いいえ | いいえ |
-> | billingaccounts / billingprofiles / billingsubscriptions | いいえ | いいえ |
-> | billingaccounts / billingprofiles / createbillingroleassignment | いいえ | いいえ |
-> | billingaccounts / billingprofiles / customers | いいえ | いいえ |
-> | billingaccounts / billingprofiles / instructions | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoices | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoices / pricesheet | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoices / transactions | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoicesections | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoicesections / billingpermissions | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoicesections / billingroleassignments | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoicesections / billingroledefinitions | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoicesections / billingsubscriptions | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoicesections / createbillingroleassignment | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoicesections / initiatetransfer | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoicesections / products | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoicesections / products / transfer | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoicesections / products / updateautorenew | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoicesections / transactions | いいえ | いいえ |
-> | billingaccounts / billingprofiles / invoicesections / transfers | いいえ | いいえ |
-> | billingaccounts / billingprofiles / patchoperations | いいえ | いいえ |
-> | billingaccounts / billingprofiles / paymentmethods | いいえ | いいえ |
-> | billingaccounts / billingprofiles / policies | いいえ | いいえ |
-> | billingaccounts / billingprofiles / pricesheet | いいえ | いいえ |
-> | billingaccounts / billingprofiles / pricesheetdownloadoperations | いいえ | いいえ |
-> | billingaccounts / billingprofiles / products | いいえ | いいえ |
-> | billingaccounts / billingprofiles / transactions | いいえ | いいえ |
-> | billingaccounts / billingroleassignments | いいえ | いいえ |
-> | billingaccounts / billingroledefinitions | いいえ | いいえ |
-> | billingaccounts / billingsubscriptions | いいえ | いいえ |
-> | billingaccounts / billingsubscriptions / invoices | いいえ | いいえ |
-> | billingaccounts / createbillingroleassignment | いいえ | いいえ |
-> | billingaccounts / createinvoicesectionoperations | いいえ | いいえ |
-> | billingaccounts / customers | いいえ | いいえ |
-> | billingaccounts / customers / billingpermissions | いいえ | いいえ |
-> | billingaccounts / customers / billingsubscriptions | いいえ | いいえ |
-> | billingaccounts / customers / initiatetransfer | いいえ | いいえ |
-> | billingaccounts / customers / policies | いいえ | いいえ |
-> | billingaccounts / customers / products | いいえ | いいえ |
-> | billingaccounts / customers / transactions | いいえ | いいえ |
-> | billingaccounts / customers / transfers | いいえ | いいえ |
-> | billingaccounts / departments | いいえ | いいえ |
-> | billingaccounts / enrollmentaccounts | いいえ | いいえ |
-> | billingaccounts / invoices | いいえ | いいえ |
-> | billingaccounts / invoicesections | いいえ | いいえ |
-> | billingaccounts / invoicesections / billingsubscriptionmoveoperations | いいえ | いいえ |
-> | billingaccounts / invoicesections / billingsubscriptions | いいえ | いいえ |
-> | billingaccounts / invoicesections / billingsubscriptions / transfer | いいえ | いいえ |
-> | billingaccounts / invoicesections / elevate | いいえ | いいえ |
-> | billingaccounts / invoicesections / initiatetransfer | いいえ | いいえ |
-> | billingaccounts / invoicesections / patchoperations | いいえ | いいえ |
-> | billingaccounts / invoicesections / productmoveoperations | いいえ | いいえ |
-> | billingaccounts / invoicesections / products | いいえ | いいえ |
-> | billingaccounts / invoicesections / products / transfer | いいえ | いいえ |
-> | billingaccounts / invoicesections / products / updateautorenew | いいえ | いいえ |
-> | billingaccounts / invoicesections / producttransfersresults | いいえ | いいえ |
-> | billingaccounts / invoicesections / transactions | いいえ | いいえ |
-> | billingaccounts / invoicesections / transfers | いいえ | いいえ |
-> | billingaccounts / lineofcredit | いいえ | いいえ |
-> | billingaccounts / listinvoicesectionswithcreatesubscriptionpermission | いいえ | いいえ |
-> | billingaccounts / operationresults | いいえ | いいえ |
-> | billingaccounts / patchoperations | いいえ | いいえ |
-> | billingaccounts / paymentmethods | いいえ | いいえ |
-> | billingaccounts / products | いいえ | いいえ |
-> | billingaccounts / transactions | いいえ | いいえ |
-> | billingperiods | いいえ | いいえ |
-> | billingpermissions | いいえ | いいえ |
-> | billingproperty | いいえ | いいえ |
-> | billingroleassignments | いいえ | いいえ |
-> | billingroledefinitions | いいえ | いいえ |
-> | createbillingroleassignment | いいえ | いいえ |
-> | departments | いいえ | いいえ |
-> | enrollmentaccounts | いいえ | いいえ |
-> | invoices | いいえ | いいえ |
-> | operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | operationstatus | いいえ | いいえ |
-> | transfers | いいえ | いいえ |
-> | transfers / accepttransfer | いいえ | いいえ |
-> | transfers / declinetransfer | いいえ | いいえ |
-> | transfers / operationstatus | いいえ | いいえ |
-> | transfers / validatetransfer | いいえ | いいえ |
-> | validateaddress | いいえ | いいえ |
+> | billingaccounts | × | × |
+> | billingaccounts / agreements | × | × |
+> | billingaccounts / billingpermissions | × | × |
+> | billingaccounts / billingprofiles | × | × |
+> | billingaccounts / billingprofiles / availablebalance | × | × |
+> | billingaccounts / billingprofiles / billingpermissions | × | × |
+> | billingaccounts / billingprofiles / billingroleassignments | × | × |
+> | billingaccounts / billingprofiles / billingroledefinitions | × | × |
+> | billingaccounts / billingprofiles / billingsubscriptions | × | × |
+> | billingaccounts / billingprofiles / createbillingroleassignment | × | × |
+> | billingaccounts / billingprofiles / customers | × | × |
+> | billingaccounts / billingprofiles / instructions | × | × |
+> | billingaccounts / billingprofiles / invoices | × | × |
+> | billingaccounts / billingprofiles / invoices / pricesheet | × | × |
+> | billingaccounts / billingprofiles / invoices / transactions | × | × |
+> | billingaccounts / billingprofiles / invoicesections | × | × |
+> | billingaccounts / billingprofiles / invoicesections / billingpermissions | × | × |
+> | billingaccounts / billingprofiles / invoicesections / billingroleassignments | × | × |
+> | billingaccounts / billingprofiles / invoicesections / billingroledefinitions | × | × |
+> | billingaccounts / billingprofiles / invoicesections / billingsubscriptions | × | × |
+> | billingaccounts / billingprofiles / invoicesections / createbillingroleassignment | × | × |
+> | billingaccounts / billingprofiles / invoicesections / initiatetransfer | × | × |
+> | billingaccounts / billingprofiles / invoicesections / products | × | × |
+> | billingaccounts / billingprofiles / invoicesections / products / transfer | × | × |
+> | billingaccounts / billingprofiles / invoicesections / products / updateautorenew | × | × |
+> | billingaccounts / billingprofiles / invoicesections / transactions | × | × |
+> | billingaccounts / billingprofiles / invoicesections / transfers | × | × |
+> | billingaccounts / billingprofiles / patchoperations | × | × |
+> | billingaccounts / billingprofiles / paymentmethods | × | × |
+> | billingaccounts / billingprofiles / policies | × | × |
+> | billingaccounts / billingprofiles / pricesheet | × | × |
+> | billingaccounts / billingprofiles / pricesheetdownloadoperations | × | × |
+> | billingaccounts / billingprofiles / products | × | × |
+> | billingaccounts / billingprofiles / transactions | × | × |
+> | billingaccounts / billingroleassignments | × | × |
+> | billingaccounts / billingroledefinitions | × | × |
+> | billingaccounts / billingsubscriptions | × | × |
+> | billingaccounts / billingsubscriptions / invoices | × | × |
+> | billingaccounts / createbillingroleassignment | × | × |
+> | billingaccounts / createinvoicesectionoperations | × | × |
+> | billingaccounts / customers | × | × |
+> | billingaccounts / customers / billingpermissions | × | × |
+> | billingaccounts / customers / billingsubscriptions | × | × |
+> | billingaccounts / customers / initiatetransfer | × | × |
+> | billingaccounts / customers / policies | × | × |
+> | billingaccounts / customers / products | × | × |
+> | billingaccounts / customers / transactions | × | × |
+> | billingaccounts / customers / transfers | × | × |
+> | billingaccounts / departments | × | × |
+> | billingaccounts / enrollmentaccounts | × | × |
+> | billingaccounts / invoices | × | × |
+> | billingaccounts / invoicesections | × | × |
+> | billingaccounts / invoicesections / billingsubscriptionmoveoperations | × | × |
+> | billingaccounts / invoicesections / billingsubscriptions | × | × |
+> | billingaccounts / invoicesections / billingsubscriptions / transfer | × | × |
+> | billingaccounts / invoicesections / elevate | × | × |
+> | billingaccounts / invoicesections / initiatetransfer | × | × |
+> | billingaccounts / invoicesections / patchoperations | × | × |
+> | billingaccounts / invoicesections / productmoveoperations | × | × |
+> | billingaccounts / invoicesections / products | × | × |
+> | billingaccounts / invoicesections / products / transfer | × | × |
+> | billingaccounts / invoicesections / products / updateautorenew | × | × |
+> | billingaccounts / invoicesections / producttransfersresults | × | × |
+> | billingaccounts / invoicesections / transactions | × | × |
+> | billingaccounts / invoicesections / transfers | × | × |
+> | billingaccounts / lineofcredit | × | × |
+> | billingaccounts / listinvoicesectionswithcreatesubscriptionpermission | × | × |
+> | billingaccounts / operationresults | × | × |
+> | billingaccounts / patchoperations | × | × |
+> | billingaccounts / paymentmethods | × | × |
+> | billingaccounts / products | × | × |
+> | billingaccounts / transactions | × | × |
+> | billingperiods | × | × |
+> | billingpermissions | × | × |
+> | billingproperty | × | × |
+> | billingroleassignments | × | × |
+> | billingroledefinitions | × | × |
+> | createbillingroleassignment | × | × |
+> | departments | × | × |
+> | enrollmentaccounts | × | × |
+> | invoices | × | × |
+> | operationresults | × | × |
+> | operations | × | × |
+> | operationstatus | × | × |
+> | transfers | × | × |
+> | transfers / accepttransfer | × | × |
+> | transfers / declinetransfer | × | × |
+> | transfers / operationstatus | × | × |
+> | transfers / validatetransfer | × | × |
+> | validateaddress | × | × |
 
 ## <a name="microsoftbingmaps"></a>Microsoft.BingMaps
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | listcommunicationpreference | いいえ | いいえ |
-> | mapapis | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | updatecommunicationpreference | いいえ | いいえ |
+> | listcommunicationpreference | × | × |
+> | mapapis | × | × |
+> | operations | × | × |
+> | updatecommunicationpreference | × | × |
 
 ## <a name="microsoftbiztalkservices"></a>Microsoft.BizTalkServices
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | biztalk | いいえ | いいえ |
+> | biztalk | × | × |
 
 ## <a name="microsoftblockchain"></a>Microsoft.Blockchain
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | blockchainmembers | いいえ | いいえ |
-> | cordamembers | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / blockchainmemberoperationresults | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | locations / listconsortiums | いいえ | いいえ |
-> | locations / watcheroperationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | watchers | いいえ | いいえ |
+> | blockchainmembers | × | × |
+> | cordamembers | × | × |
+> | locations | × | × |
+> | locations / blockchainmemberoperationresults | × | × |
+> | locations / checknameavailability | × | × |
+> | locations / listconsortiums | × | × |
+> | locations / watcheroperationresults | × | × |
+> | operations | × | × |
+> | watchers | × | × |
 
 ## <a name="microsoftblockchaintokens"></a>Microsoft.BlockchainTokens
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | operations | いいえ | いいえ |
-> | tokenservices | いいえ | いいえ |
+> | operations | × | × |
+> | tokenservices | × | × |
 
 ## <a name="microsoftblueprint"></a>Microsoft.Blueprint
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | blueprintassignments | いいえ | いいえ |
-> | blueprintassignments / assignmentoperations | いいえ | いいえ |
-> | blueprintassignments / operations | いいえ | いいえ |
-> | blueprints | いいえ | いいえ |
-> | blueprints / artifacts | いいえ | いいえ |
-> | blueprints / versions | いいえ | いいえ |
-> | blueprints / versions / artifacts | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | blueprintassignments | × | × |
+> | blueprintassignments / assignmentoperations | × | × |
+> | blueprintassignments / operations | × | × |
+> | blueprints | × | × |
+> | blueprints / artifacts | × | × |
+> | blueprints / versions | × | × |
+> | blueprints / versions / artifacts | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftbotservice"></a>Microsoft.BotService
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | botservices | はい | はい |
-> | botservices / channels | いいえ | いいえ |
-> | botservices / connections | いいえ | いいえ |
-> | checknameavailability | いいえ | いいえ |
-> | listauthserviceproviders | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | botservices | ○ | ○ |
+> | botservices / channels | × | × |
+> | botservices / connections | × | × |
+> | checknameavailability | × | × |
+> | listauthserviceproviders | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftcache"></a>Microsoft.Cache
 
@@ -632,14 +632,14 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | × | いいえ |
-> | locations | × | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / operationsstatus | × | いいえ |
+> | checknameavailability | × | × |
+> | locations | × | × |
+> | locations / operationresults | × | × |
+> | locations / operationsstatus | × | × |
 > | operations | × | × |
-> | redis | はい | はい |
-> | redis / eventgridfilters | いいえ | いいえ |
-> | redis / privatelinkresources | × | いいえ |
+> | redis | ○ | ○ |
+> | redis / eventgridfilters | × | × |
+> | redis / privatelinkresources | × | × |
 > | redisenterprise | × | × |
 
 ## <a name="microsoftcapacity"></a>Microsoft.Capacity
@@ -647,56 +647,56 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | appliedreservations | いいえ | いいえ |
-> | calculateexchange | いいえ | いいえ |
-> | calculateprice | いいえ | いいえ |
-> | calculatepurchaseprice | いいえ | いいえ |
-> | catalogs | いいえ | いいえ |
-> | checkoffers | いいえ | いいえ |
-> | checkpurchasestatus | いいえ | いいえ |
-> | checkscopes | いいえ | いいえ |
-> | commercialreservationorders | いいえ | いいえ |
-> | exchange | いいえ | いいえ |
-> | listbenefits | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | placepurchaseorder | いいえ | いいえ |
-> | reservationorders | いいえ | いいえ |
-> | reservationorders / availablescopes | いいえ | いいえ |
-> | reservationorders / calculaterefund | いいえ | いいえ |
-> | reservationorders / merge | いいえ | いいえ |
-> | reservationorders / reservations | いいえ | いいえ |
-> | reservationorders / reservations / availablescopes | いいえ | いいえ |
-> | reservationorders / reservations / revisions | いいえ | いいえ |
-> | reservationorders / return | いいえ | いいえ |
-> | reservationorders / split | いいえ | いいえ |
-> | reservationorders / swap | いいえ | いいえ |
-> | reservations | いいえ | いいえ |
-> | resources | いいえ | いいえ |
-> | validatereservationorder | いいえ | いいえ |
+> | appliedreservations | × | × |
+> | calculateexchange | × | × |
+> | calculateprice | × | × |
+> | calculatepurchaseprice | × | × |
+> | catalogs | × | × |
+> | checkoffers | × | × |
+> | checkpurchasestatus | × | × |
+> | checkscopes | × | × |
+> | commercialreservationorders | × | × |
+> | exchange | × | × |
+> | listbenefits | × | × |
+> | operations | × | × |
+> | placepurchaseorder | × | × |
+> | reservationorders | × | × |
+> | reservationorders / availablescopes | × | × |
+> | reservationorders / calculaterefund | × | × |
+> | reservationorders / merge | × | × |
+> | reservationorders / reservations | × | × |
+> | reservationorders / reservations / availablescopes | × | × |
+> | reservationorders / reservations / revisions | × | × |
+> | reservationorders / return | × | × |
+> | reservationorders / split | × | × |
+> | reservationorders / swap | × | × |
+> | reservations | × | × |
+> | resources | × | × |
+> | validatereservationorder | × | × |
 
 ## <a name="microsoftcdn"></a>Microsoft.Cdn
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | cdnwebapplicationfirewallmanagedrulesets | いいえ | いいえ |
-> | cdnwebapplicationfirewallpolicies | はい | はい |
-> | checknameavailability | いいえ | いいえ |
-> | checkresourceusage | いいえ | いいえ |
-> | edgenodes | いいえ | いいえ |
-> | operationresults | いいえ | いいえ |
-> | operationresults / profileresults | いいえ | いいえ |
-> | operationresults / profileresults / endpointresults | いいえ | いいえ |
-> | operationresults / profileresults / endpointresults / customdomainresults | いいえ | いいえ |
-> | operationresults / profileresults / endpointresults / origingroupresults | いいえ | いいえ |
-> | operationresults / profileresults / endpointresults / originresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | profiles | はい | はい |
-> | profiles/endpoints | はい | はい |
-> | profiles / endpoints / customdomains | いいえ | いいえ |
-> | profiles / endpoints / origingroups | いいえ | いいえ |
-> | profiles / endpoints / origins | いいえ | いいえ |
-> | validateprobe | いいえ | いいえ |
+> | cdnwebapplicationfirewallmanagedrulesets | × | × |
+> | cdnwebapplicationfirewallpolicies | ○ | ○ |
+> | checknameavailability | × | × |
+> | checkresourceusage | × | × |
+> | edgenodes | × | × |
+> | operationresults | × | × |
+> | operationresults / profileresults | × | × |
+> | operationresults / profileresults / endpointresults | × | × |
+> | operationresults / profileresults / endpointresults / customdomainresults | × | × |
+> | operationresults / profileresults / endpointresults / origingroupresults | × | × |
+> | operationresults / profileresults / endpointresults / originresults | × | × |
+> | operations | × | × |
+> | profiles | ○ | ○ |
+> | profiles/endpoints | ○ | ○ |
+> | profiles / endpoints / customdomains | × | × |
+> | profiles / endpoints / origingroups | × | × |
+> | profiles / endpoints / origins | × | × |
+> | validateprobe | × | × |
 
 ## <a name="microsoftcertificateregistration"></a>Microsoft.CertificateRegistration
 
@@ -706,17 +706,17 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | certificateorders | はい | ○ |
-> | certificateorders / certificates | いいえ | × |
-> | operations | いいえ | × |
-> | validatecertificateregistrationinformation | いいえ | いいえ |
+> | certificateorders | ○ | ○ |
+> | certificateorders / certificates | × | × |
+> | operations | × | × |
+> | validatecertificateregistrationinformation | × | × |
 
 ## <a name="microsoftchangeanalysis"></a>Microsoft.ChangeAnalysis
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | operations | いいえ | いいえ |
+> | operations | × | × |
 
 ## <a name="microsoftclassiccompute"></a>Microsoft.ClassicCompute
 
@@ -726,28 +726,28 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | capabilities | × | いいえ |
-> | checkdomainnameavailability | × | いいえ |
-> | domainnames | はい | いいえ |
-> | domainnames / capabilities | × | いいえ |
-> | domainnames / internalloadbalancers | × | いいえ |
-> | domainnames / servicecertificates | × | いいえ |
-> | domainnames / slots | × | いいえ |
-> | domainnames / slots / roles | × | いいえ |
-> | domainnames / slots / roles / metricdefinitions | × | いいえ |
-> | domainnames / slots / roles / metrics | × | いいえ |
-> | movesubscriptionresources | × | いいえ |
-> | operatingsystemfamilies | × | いいえ |
-> | operatingsystems | × | いいえ |
-> | operations | × | いいえ |
-> | operationstatuses | × | いいえ |
-> | quotas | × | いいえ |
-> | resourcetypes | × | いいえ |
+> | capabilities | × | × |
+> | checkdomainnameavailability | × | × |
+> | domainnames | ○ | × |
+> | domainnames / capabilities | × | × |
+> | domainnames / internalloadbalancers | × | × |
+> | domainnames / servicecertificates | × | × |
+> | domainnames / slots | × | × |
+> | domainnames / slots / roles | × | × |
+> | domainnames / slots / roles / metricdefinitions | × | × |
+> | domainnames / slots / roles / metrics | × | × |
+> | movesubscriptionresources | × | × |
+> | operatingsystemfamilies | × | × |
+> | operatingsystems | × | × |
+> | operations | × | × |
+> | operationstatuses | × | × |
+> | quotas | × | × |
+> | resourcetypes | × | × |
 > | validatesubscriptionmoveavailability | × | × |
-> | virtualmachines | はい | いいえ |
-> | virtualmachines / diagnosticsettings | × | いいえ |
-> | virtualmachines / metricdefinitions | × | いいえ |
-> | virtualmachines / metrics | いいえ | × |
+> | virtualmachines | ○ | × |
+> | virtualmachines / diagnosticsettings | × | × |
+> | virtualmachines / metricdefinitions | × | × |
+> | virtualmachines / metrics | × | × |
 
 ## <a name="microsoftclassicinfrastructuremigrate"></a>Microsoft.ClassicInfrastructureMigrate
 
@@ -767,17 +767,17 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | capabilities | × | いいえ |
-> | expressroutecrossconnections | いいえ | いいえ |
-> | expressroutecrossconnections / peerings | × | いいえ |
-> | gatewaysupporteddevices | × | いいえ |
-> | networksecuritygroups | × | いいえ |
-> | operations | × | いいえ |
-> | quotas | × | いいえ |
-> | reservedips | × | いいえ |
-> | virtualnetworks | × | いいえ |
-> | virtualnetworks / remotevirtualnetworkpeeringproxies | × | いいえ |
-> | virtualnetworks / virtualnetworkpeerings | × | いいえ |
+> | capabilities | × | × |
+> | expressroutecrossconnections | × | × |
+> | expressroutecrossconnections / peerings | × | × |
+> | gatewaysupporteddevices | × | × |
+> | networksecuritygroups | × | × |
+> | operations | × | × |
+> | quotas | × | × |
+> | reservedips | × | × |
+> | virtualnetworks | × | × |
+> | virtualnetworks / remotevirtualnetworkpeeringproxies | × | × |
+> | virtualnetworks / virtualnetworkpeerings | × | × |
 
 ## <a name="microsoftclassicstorage"></a>Microsoft.ClassicStorage
 
@@ -787,27 +787,27 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | capabilities | × | いいえ |
-> | checkstorageaccountavailability | × | いいえ |
-> | disks | × | いいえ |
-> | images | × | いいえ |
-> | operations | × | いいえ |
-> | osimages | × | いいえ |
-> | osplatformimages | × | いいえ |
-> | publicimages | × | いいえ |
+> | capabilities | × | × |
+> | checkstorageaccountavailability | × | × |
+> | disks | × | × |
+> | images | × | × |
+> | operations | × | × |
+> | osimages | × | × |
+> | osplatformimages | × | × |
+> | publicimages | × | × |
 > | quotas | × | × |
-> | storageaccounts | はい | いいえ |
-> | storageaccounts / blobservices | × | いいえ |
-> | storageaccounts / fileservices | × | いいえ |
-> | storageaccounts / metricdefinitions | いいえ | いいえ |
-> | storageaccounts / metrics | × | いいえ |
-> | storageaccounts / queueservices | × | いいえ |
-> | storageaccounts / services | × | いいえ |
-> | storageaccounts / services / diagnosticsettings | × | いいえ |
-> | storageaccounts / services / metricdefinitions | × | いいえ |
-> | storageaccounts / services / metrics | × | いいえ |
-> | storageaccounts / tableservices | × | いいえ |
-> | storageaccounts / vmimages | × | いいえ |
+> | storageaccounts | ○ | × |
+> | storageaccounts / blobservices | × | × |
+> | storageaccounts / fileservices | × | × |
+> | storageaccounts / metricdefinitions | × | × |
+> | storageaccounts / metrics | × | × |
+> | storageaccounts / queueservices | × | × |
+> | storageaccounts / services | × | × |
+> | storageaccounts / services / diagnosticsettings | × | × |
+> | storageaccounts / services / metricdefinitions | × | × |
+> | storageaccounts / services / metrics | × | × |
+> | storageaccounts / tableservices | × | × |
+> | storageaccounts / vmimages | × | × |
 > | vmimages | × | × |
 
 ## <a name="microsoftclassicsubscription"></a>Microsoft.ClassicSubscription
@@ -818,29 +818,29 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | operations | いいえ | × |
+> | operations | × | × |
 
 ## <a name="microsoftcognitiveservices"></a>Microsoft.CognitiveServices
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | accounts | はい | はい |
-> | checkdomainavailability | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / checkskuavailability | いいえ | いいえ |
-> | locations / deletevirtualnetworkorsubnets | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | accounts | ○ | ○ |
+> | checkdomainavailability | × | × |
+> | locations | × | × |
+> | locations / checkskuavailability | × | × |
+> | locations / deletevirtualnetworkorsubnets | × | × |
+> | locations / operationresults | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftcommerce"></a>Microsoft.Commerce
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | operations | いいえ | いいえ |
-> | ratecard | いいえ | いいえ |
-> | usageaggregates | いいえ | いいえ |
+> | operations | × | × |
+> | ratecard | × | × |
+> | usageaggregates | × | × |
 
 ## <a name="microsoftcompute"></a>Microsoft.Compute
 
@@ -850,766 +850,766 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | availabilitysets | はい | はい |
-> | diskaccesses | いいえ | × |
-> | diskencryptionsets | いいえ | × |
-> | disks | はい | ○ |
-> | galleries | いいえ | × |
-> | galleries/images | いいえ | × |
-> | galleries/images/versions | いいえ | × |
-> | hostgroups | いいえ | × |
-> | hostgroups/hosts | いいえ | × |
-> | images | はい | はい |
-> | locations | いいえ | × |
-> | locations / artifactpublishers | いいえ | × |
-> | locations / capsoperations | いいえ | × |
-> | locations / diskoperations | いいえ | × |
-> | locations / loganalytics | いいえ | × |
-> | locations / operations | いいえ | × |
-> | locations / publishers | いいえ | × |
-> | locations / runcommands | いいえ | × |
-> | locations / usages | いいえ | × |
-> | locations / virtualmachines | いいえ | × |
-> | locations / vmsizes | いいえ | × |
-> | locations / vsmoperations | いいえ | × |
-> | operations | いいえ | いいえ |
-> | proximityplacementgroups | はい | ○ |
-> | restorepointcollections | いいえ | いいえ |
-> | restorepointcollections / restorepoints | いいえ | × |
-> | sharedvmextensions | いいえ | × |
-> | sharedvmimages | いいえ | × |
-> | sharedvmimages/versions | いいえ | × |
-> | スナップショット | はい | ○ |
-> | sshpublickeys | いいえ | × |
-> | virtualmachines | はい | はい |
-> | virtualmachines/extensions | はい | ○ |
-> | virtualmachines / metricdefinitions | いいえ | × |
-> | virtualmachines / runcommands | いいえ | × |
-> | virtualmachinescalesets | はい | ○ |
-> | virtualmachinescalesets / extensions | いいえ | × |
-> | virtualmachinescalesets / networkinterfaces | いいえ | × |
-> | virtualmachinescalesets / publicipaddresses | いいえ | × |
-> | virtualmachinescalesets / virtualmachines | いいえ | × |
-> | virtualmachinescalesets / virtualmachines / networkinterfaces | いいえ | × |
+> | availabilitysets | ○ | ○ |
+> | diskaccesses | × | × |
+> | diskencryptionsets | × | × |
+> | disks | ○ | ○ |
+> | galleries | × | × |
+> | galleries/images | × | × |
+> | galleries/images/versions | × | × |
+> | hostgroups | × | × |
+> | hostgroups/hosts | × | × |
+> | images | ○ | ○ |
+> | locations | × | × |
+> | locations / artifactpublishers | × | × |
+> | locations / capsoperations | × | × |
+> | locations / diskoperations | × | × |
+> | locations / loganalytics | × | × |
+> | locations / operations | × | × |
+> | locations / publishers | × | × |
+> | locations / runcommands | × | × |
+> | locations / usages | × | × |
+> | locations / virtualmachines | × | × |
+> | locations / vmsizes | × | × |
+> | locations / vsmoperations | × | × |
+> | operations | × | × |
+> | proximityplacementgroups | ○ | ○ |
+> | restorepointcollections | × | × |
+> | restorepointcollections / restorepoints | × | × |
+> | sharedvmextensions | × | × |
+> | sharedvmimages | × | × |
+> | sharedvmimages/versions | × | × |
+> | スナップショット | ○ | ○ |
+> | sshpublickeys | × | × |
+> | virtualmachines | ○ | ○ |
+> | virtualmachines/extensions | ○ | ○ |
+> | virtualmachines / metricdefinitions | × | × |
+> | virtualmachines / runcommands | × | × |
+> | virtualmachinescalesets | ○ | ○ |
+> | virtualmachinescalesets / extensions | × | × |
+> | virtualmachinescalesets / networkinterfaces | × | × |
+> | virtualmachinescalesets / publicipaddresses | × | × |
+> | virtualmachinescalesets / virtualmachines | × | × |
+> | virtualmachinescalesets / virtualmachines / networkinterfaces | × | × |
 
 ## <a name="microsoftconsumption"></a>Microsoft.Consumption
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | aggregatedcost | いいえ | いいえ |
-> | balances | いいえ | いいえ |
-> | budgets | いいえ | いいえ |
-> | charges | いいえ | いいえ |
-> | costtags | いいえ | いいえ |
-> | credits | いいえ | いいえ |
-> | events | いいえ | いいえ |
-> | forecasts | いいえ | いいえ |
-> | lots | いいえ | いいえ |
-> | marketplaces | いいえ | いいえ |
-> | operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | operationstatus | いいえ | いいえ |
-> | pricesheets | いいえ | いいえ |
-> | products | いいえ | いいえ |
-> | reservationdetails | いいえ | いいえ |
-> | reservationrecommendationdetails | いいえ | いいえ |
-> | reservationrecommendations | いいえ | いいえ |
-> | reservationsummaries | いいえ | いいえ |
-> | reservationtransactions | いいえ | いいえ |
-> | tags | いいえ | いいえ |
-> | tenants | いいえ | いいえ |
-> | terms | いいえ | いいえ |
-> | usagedetails | いいえ | いいえ |
+> | aggregatedcost | × | × |
+> | balances | × | × |
+> | budgets | × | × |
+> | charges | × | × |
+> | costtags | × | × |
+> | credits | × | × |
+> | events | × | × |
+> | forecasts | × | × |
+> | lots | × | × |
+> | marketplaces | × | × |
+> | operationresults | × | × |
+> | operations | × | × |
+> | operationstatus | × | × |
+> | pricesheets | × | × |
+> | products | × | × |
+> | reservationdetails | × | × |
+> | reservationrecommendationdetails | × | × |
+> | reservationrecommendations | × | × |
+> | reservationsummaries | × | × |
+> | reservationtransactions | × | × |
+> | tags | × | × |
+> | tenants | × | × |
+> | terms | × | × |
+> | usagedetails | × | × |
 
 ## <a name="microsoftcontainerinstance"></a>Microsoft.ContainerInstance
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | containergroups | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / cachedimages | いいえ | いいえ |
-> | locations / capabilities | いいえ | いいえ |
-> | locations / deletevirtualnetworkorsubnets | いいえ | いいえ |
-> | locations / operations | いいえ | いいえ |
-> | locations / usages | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | serviceassociationlinks | いいえ | いいえ |
+> | containergroups | × | × |
+> | locations | × | × |
+> | locations / cachedimages | × | × |
+> | locations / capabilities | × | × |
+> | locations / deletevirtualnetworkorsubnets | × | × |
+> | locations / operations | × | × |
+> | locations / usages | × | × |
+> | operations | × | × |
+> | serviceassociationlinks | × | × |
 
 ## <a name="microsoftcontainerregistry"></a>Microsoft.ContainerRegistry
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / authorize | いいえ | いいえ |
-> | locations / deletevirtualnetworkorsubnets | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / setupauth | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | registries | はい | はい |
-> | registries / agentpools | はい | はい |
-> | registries / agentpools / listqueuestatus | いいえ | いいえ |
-> | registries / builds | いいえ | いいえ |
-> | registries / builds / cancel | いいえ | いいえ |
-> | registries / builds / getloglink | いいえ | いいえ |
-> | registries/buildtasks | はい | はい |
-> | registries / buildtasks / listsourcerepositoryproperties | いいえ | いいえ |
-> | registries / buildtasks / steps | いいえ | いいえ |
-> | registries / buildtasks / steps / listbuildarguments | いいえ | いいえ |
-> | registries / eventgridfilters | いいえ | いいえ |
-> | registries / exportpipelines | いいえ | いいえ |
-> | registries / generatecredentials | いいえ | いいえ |
-> | registries / getbuildsourceuploadurl | いいえ | いいえ |
-> | registries / getcredentials | いいえ | いいえ |
-> | registries / importimage | いいえ | いいえ |
-> | registries / importpipelines | いいえ | いいえ |
-> | registries / listbuildsourceuploadurl | いいえ | いいえ |
-> | registries / listcredentials | いいえ | いいえ |
-> | registries / listpolicies | いいえ | いいえ |
-> | registries / listusages | いいえ | いいえ |
-> | registries / pipelineruns | いいえ | いいえ |
-> | registries / privateendpointconnectionproxies | いいえ | いいえ |
-> | registries / privateendpointconnectionproxies / validate | いいえ | いいえ |
-> | registries / privateendpointconnections | いいえ | いいえ |
-> | registries / privatelinkresources | いいえ | いいえ |
-> | registries / queuebuild | いいえ | いいえ |
-> | registries / regeneratecredential | いいえ | いいえ |
-> | registries / regeneratecredentials | いいえ | いいえ |
-> | registries/replications | はい | はい |
-> | registries / runs | いいえ | いいえ |
-> | registries / runs / cancel | いいえ | いいえ |
-> | registries / runs / listlogsasurl | いいえ | いいえ |
-> | registries / schedulerun | いいえ | いいえ |
-> | registries / scopemaps | いいえ | いいえ |
-> | registries/taskruns | いいえ | いいえ |
-> | registries / taskruns / listdetails | いいえ | いいえ |
-> | registries/tasks | はい | はい |
-> | registries / tasks / listdetails | いいえ | いいえ |
-> | registries / tokens | いいえ | いいえ |
-> | registries / updatepolicies | いいえ | いいえ |
-> | registries/webhooks | はい | はい |
-> | registries / webhooks / getcallbackconfig | いいえ | いいえ |
-> | registries / webhooks / listevents | いいえ | いいえ |
-> | registries / webhooks / ping | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | locations | × | × |
+> | locations / authorize | × | × |
+> | locations / deletevirtualnetworkorsubnets | × | × |
+> | locations / operationresults | × | × |
+> | locations / setupauth | × | × |
+> | operations | × | × |
+> | registries | ○ | ○ |
+> | registries / agentpools | ○ | ○ |
+> | registries / agentpools / listqueuestatus | × | × |
+> | registries / builds | × | × |
+> | registries / builds / cancel | × | × |
+> | registries / builds / getloglink | × | × |
+> | registries/buildtasks | ○ | ○ |
+> | registries / buildtasks / listsourcerepositoryproperties | × | × |
+> | registries / buildtasks / steps | × | × |
+> | registries / buildtasks / steps / listbuildarguments | × | × |
+> | registries / eventgridfilters | × | × |
+> | registries / exportpipelines | × | × |
+> | registries / generatecredentials | × | × |
+> | registries / getbuildsourceuploadurl | × | × |
+> | registries / getcredentials | × | × |
+> | registries / importimage | × | × |
+> | registries / importpipelines | × | × |
+> | registries / listbuildsourceuploadurl | × | × |
+> | registries / listcredentials | × | × |
+> | registries / listpolicies | × | × |
+> | registries / listusages | × | × |
+> | registries / pipelineruns | × | × |
+> | registries / privateendpointconnectionproxies | × | × |
+> | registries / privateendpointconnectionproxies / validate | × | × |
+> | registries / privateendpointconnections | × | × |
+> | registries / privatelinkresources | × | × |
+> | registries / queuebuild | × | × |
+> | registries / regeneratecredential | × | × |
+> | registries / regeneratecredentials | × | × |
+> | registries/replications | ○ | ○ |
+> | registries / runs | × | × |
+> | registries / runs / cancel | × | × |
+> | registries / runs / listlogsasurl | × | × |
+> | registries / schedulerun | × | × |
+> | registries / scopemaps | × | × |
+> | registries/taskruns | × | × |
+> | registries / taskruns / listdetails | × | × |
+> | registries/tasks | ○ | ○ |
+> | registries / tasks / listdetails | × | × |
+> | registries / tokens | × | × |
+> | registries / updatepolicies | × | × |
+> | registries/webhooks | ○ | ○ |
+> | registries / webhooks / getcallbackconfig | × | × |
+> | registries / webhooks / listevents | × | × |
+> | registries / webhooks / ping | × | × |
 
 ## <a name="microsoftcontainerservice"></a>Microsoft.ContainerService
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | containerservices | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / openshiftclusters | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / operations | いいえ | いいえ |
-> | locations / orchestrators | いいえ | いいえ |
-> | managedclusters | いいえ | いいえ |
-> | openshiftmanagedclusters | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | containerservices | × | × |
+> | locations | × | × |
+> | locations / openshiftclusters | × | × |
+> | locations / operationresults | × | × |
+> | locations / operations | × | × |
+> | locations / orchestrators | × | × |
+> | managedclusters | × | × |
+> | openshiftmanagedclusters | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftcontentmoderator"></a>Microsoft.ContentModerator
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | applications | いいえ | いいえ |
+> | applications | × | × |
 
 ## <a name="microsoftcortanaanalytics"></a>Microsoft.CortanaAnalytics
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | accounts | いいえ | いいえ |
+> | accounts | × | × |
 
 ## <a name="microsoftcostmanagement"></a>Microsoft.CostManagement
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | alerts | いいえ | いいえ |
-> | billingaccounts | いいえ | いいえ |
-> | budgets | いいえ | いいえ |
-> | cloudconnectors | いいえ | いいえ |
-> | connectors | はい | はい |
-> | departments | いいえ | いいえ |
-> | dimensions | いいえ | いいえ |
-> | enrollmentaccounts | いいえ | いいえ |
-> | exports | いいえ | いいえ |
-> | externalbillingaccounts | いいえ | いいえ |
-> | externalbillingaccounts / alerts | いいえ | いいえ |
-> | externalbillingaccounts / dimensions | いいえ | いいえ |
-> | externalbillingaccounts / forecast | いいえ | いいえ |
-> | externalbillingaccounts / query | いいえ | いいえ |
-> | externalsubscriptions | いいえ | いいえ |
-> | externalsubscriptions / alerts | いいえ | いいえ |
-> | externalsubscriptions / dimensions | いいえ | いいえ |
-> | externalsubscriptions / forecast | いいえ | いいえ |
-> | externalsubscriptions / query | いいえ | いいえ |
-> | forecast | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | query | いいえ | いいえ |
-> | registrations | いいえ | いいえ |
-> | reportconfigs | いいえ | いいえ |
-> | reports | いいえ | いいえ |
-> | settings | いいえ | いいえ |
-> | showbackrules | いいえ | いいえ |
-> | views | いいえ | いいえ |
+> | alerts | × | × |
+> | billingaccounts | × | × |
+> | budgets | × | × |
+> | cloudconnectors | × | × |
+> | connectors | ○ | ○ |
+> | departments | × | × |
+> | dimensions | × | × |
+> | enrollmentaccounts | × | × |
+> | exports | × | × |
+> | externalbillingaccounts | × | × |
+> | externalbillingaccounts / alerts | × | × |
+> | externalbillingaccounts / dimensions | × | × |
+> | externalbillingaccounts / forecast | × | × |
+> | externalbillingaccounts / query | × | × |
+> | externalsubscriptions | × | × |
+> | externalsubscriptions / alerts | × | × |
+> | externalsubscriptions / dimensions | × | × |
+> | externalsubscriptions / forecast | × | × |
+> | externalsubscriptions / query | × | × |
+> | forecast | × | × |
+> | operations | × | × |
+> | query | × | × |
+> | registrations | × | × |
+> | reportconfigs | × | × |
+> | reports | × | × |
+> | settings | × | × |
+> | showbackrules | × | × |
+> | views | × | × |
 
 ## <a name="microsoftcostmanagementexports"></a>Microsoft.CostManagementExports
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | operations | いいえ | いいえ |
+> | operations | × | × |
 
 ## <a name="microsoftcustomerinsights"></a>Microsoft.CustomerInsights
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | hubs | いいえ | いいえ |
+> | hubs | × | × |
 
 ## <a name="microsoftcustomerlockbox"></a>Microsoft.CustomerLockbox
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | operations | いいえ | いいえ |
-> | requests | いいえ | いいえ |
+> | operations | × | × |
+> | requests | × | × |
 
 ## <a name="microsoftcustomproviders"></a>Microsoft.CustomProviders
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | associations | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | resourceproviders | はい | はい |
+> | associations | × | × |
+> | locations | × | × |
+> | locations / operationstatuses | × | × |
+> | operations | × | × |
+> | resourceproviders | ○ | ○ |
 
 ## <a name="microsoftdatabox"></a>Microsoft.DataBox
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | jobs | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / availableskus | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / regionconfiguration | いいえ | いいえ |
-> | locations / validateaddress | いいえ | いいえ |
-> | locations / validateinputs | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | jobs | × | × |
+> | locations | × | × |
+> | locations / availableskus | × | × |
+> | locations / checknameavailability | × | × |
+> | locations / operationresults | × | × |
+> | locations / regionconfiguration | × | × |
+> | locations / validateaddress | × | × |
+> | locations / validateinputs | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftdataboxedge"></a>Microsoft.DataBoxEdge
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | availableskus | いいえ | いいえ |
-> | databoxedgedevices | はい | はい |
-> | databoxedgedevices / checknameavailability | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | availableskus | × | × |
+> | databoxedgedevices | ○ | ○ |
+> | databoxedgedevices / checknameavailability | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftdatabricks"></a>Microsoft.Databricks
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / getnetworkpolicies | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | workspaces | いいえ | いいえ |
-> | workspaces / dbworkspaces | いいえ | いいえ |
-> | workspaces / virtualnetworkpeerings | いいえ | いいえ |
+> | locations | × | × |
+> | locations / getnetworkpolicies | × | × |
+> | locations / operationstatuses | × | × |
+> | operations | × | × |
+> | workspaces | × | × |
+> | workspaces / dbworkspaces | × | × |
+> | workspaces / virtualnetworkpeerings | × | × |
 
 ## <a name="microsoftdatacatalog"></a>Microsoft.DataCatalog
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | catalogs | はい | はい |
-> | checknameavailability | いいえ | いいえ |
-> | datacatalogs | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / jobs | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | catalogs | ○ | ○ |
+> | checknameavailability | × | × |
+> | datacatalogs | × | × |
+> | locations | × | × |
+> | locations / jobs | × | × |
+> | locations / operationresults | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftdataconnect"></a>Microsoft.DataConnect
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | connectionmanagers | いいえ | いいえ |
+> | connectionmanagers | × | × |
 
 ## <a name="microsoftdataexchange"></a>Microsoft.DataExchange
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | packages | いいえ | いいえ |
-> | plans | いいえ | いいえ |
+> | packages | × | × |
+> | plans | × | × |
 
 ## <a name="microsoftdatafactory"></a>Microsoft.DataFactory
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checkazuredatafactorynameavailability | いいえ | いいえ |
-> | checkdatafactorynameavailability | いいえ | いいえ |
-> | datafactories | はい | はい |
-> | datafactories / diagnosticsettings | いいえ | いいえ |
-> | datafactories / metricdefinitions | いいえ | いいえ |
-> | datafactoryschema | いいえ | いいえ |
-> | factories | はい | はい |
-> | factories / integrationruntimes | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / configurefactoryrepo | いいえ | いいえ |
-> | locations / getfeaturevalue | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | checkazuredatafactorynameavailability | × | × |
+> | checkdatafactorynameavailability | × | × |
+> | datafactories | ○ | ○ |
+> | datafactories / diagnosticsettings | × | × |
+> | datafactories / metricdefinitions | × | × |
+> | datafactoryschema | × | × |
+> | factories | ○ | ○ |
+> | factories / integrationruntimes | × | × |
+> | locations | × | × |
+> | locations / configurefactoryrepo | × | × |
+> | locations / getfeaturevalue | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftdatalake"></a>Microsoft.DataLake
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | datalakeaccounts | いいえ | いいえ |
+> | datalakeaccounts | × | × |
 
 ## <a name="microsoftdatalakeanalytics"></a>Microsoft.DataLakeAnalytics
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | accounts | はい | はい |
-> | accounts / datalakestoreaccounts | いいえ | いいえ |
-> | accounts / storageaccounts | いいえ | いいえ |
-> | accounts / storageaccounts / containers | いいえ | いいえ |
-> | accounts / storageaccounts / containers / listsastokens | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / capability | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / usages | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | accounts | ○ | ○ |
+> | accounts / datalakestoreaccounts | × | × |
+> | accounts / storageaccounts | × | × |
+> | accounts / storageaccounts / containers | × | × |
+> | accounts / storageaccounts / containers / listsastokens | × | × |
+> | locations | × | × |
+> | locations / capability | × | × |
+> | locations / checknameavailability | × | × |
+> | locations / operationresults | × | × |
+> | locations / usages | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftdatalakestore"></a>Microsoft.DataLakeStore
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | accounts | はい | はい |
-> | accounts / eventgridfilters | いいえ | いいえ |
-> | accounts / firewallrules | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / capability | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | locations / deletevirtualnetworkorsubnets | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / usages | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | accounts | ○ | ○ |
+> | accounts / eventgridfilters | × | × |
+> | accounts / firewallrules | × | × |
+> | locations | × | × |
+> | locations / capability | × | × |
+> | locations / checknameavailability | × | × |
+> | locations / deletevirtualnetworkorsubnets | × | × |
+> | locations / operationresults | × | × |
+> | locations / usages | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftdatamigration"></a>Microsoft.DataMigration
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | services | いいえ | いいえ |
-> | services/projects | いいえ | いいえ |
-> | slots | いいえ | いいえ |
+> | locations | × | × |
+> | locations / checknameavailability | × | × |
+> | locations / operationresults | × | × |
+> | locations / operationstatuses | × | × |
+> | operations | × | × |
+> | services | × | × |
+> | services/projects | × | × |
+> | slots | × | × |
 
 ## <a name="microsoftdataprotection"></a>Microsoft.DataProtection
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | backupvaults | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | backupvaults | × | × |
+> | locations | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftdatashare"></a>Microsoft.DataShare
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | accounts | はい | はい |
-> | accounts / shares | いいえ | いいえ |
-> | accounts / shares / datasets | いいえ | いいえ |
-> | accounts / shares / invitations | いいえ | いいえ |
-> | accounts / shares / providersharesubscriptions | いいえ | いいえ |
-> | accounts / shares / synchronizationsettings | いいえ | いいえ |
-> | accounts / sharesubscriptions | いいえ | いいえ |
-> | accounts / sharesubscriptions / consumersourcedatasets | いいえ | いいえ |
-> | accounts / sharesubscriptions / datasetmappings | いいえ | いいえ |
-> | accounts / sharesubscriptions / triggers | いいえ | いいえ |
-> | listinvitations | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / consumerinvitations | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / rejectinvitation | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | accounts | ○ | ○ |
+> | accounts / shares | × | × |
+> | accounts / shares / datasets | × | × |
+> | accounts / shares / invitations | × | × |
+> | accounts / shares / providersharesubscriptions | × | × |
+> | accounts / shares / synchronizationsettings | × | × |
+> | accounts / sharesubscriptions | × | × |
+> | accounts / sharesubscriptions / consumersourcedatasets | × | × |
+> | accounts / sharesubscriptions / datasetmappings | × | × |
+> | accounts / sharesubscriptions / triggers | × | × |
+> | listinvitations | × | × |
+> | locations | × | × |
+> | locations / consumerinvitations | × | × |
+> | locations / operationresults | × | × |
+> | locations / rejectinvitation | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftdbformariadb"></a>Microsoft.DBforMariaDB
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / azureasyncoperation | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / performancetiers | いいえ | いいえ |
-> | locations / privateendpointconnectionazureasyncoperation | いいえ | いいえ |
-> | locations / privateendpointconnectionoperationresults | いいえ | いいえ |
-> | locations / privateendpointconnectionproxyazureasyncoperation | いいえ | いいえ |
-> | locations / privateendpointconnectionproxyoperationresults | いいえ | いいえ |
-> | locations / recommendedactionsessionsazureasyncoperation | いいえ | いいえ |
-> | locations / recommendedactionsessionsoperationresults | いいえ | いいえ |
-> | locations / securityalertpoliciesazureasyncoperation | いいえ | いいえ |
-> | locations / securityalertpoliciesoperationresults | いいえ | いいえ |
-> | locations / serverkeyazureasyncoperation | いいえ | いいえ |
-> | locations / serverkeyoperationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | servers | はい | はい |
-> | servers / advisors | いいえ | いいえ |
-> | servers / privateendpointconnectionproxies | いいえ | いいえ |
-> | servers / privateendpointconnections | いいえ | いいえ |
-> | servers / privatelinkresources | いいえ | いいえ |
-> | servers / querytexts | いいえ | いいえ |
-> | servers / recoverableservers | いいえ | いいえ |
-> | servers / topquerystatistics | いいえ | いいえ |
-> | servers / virtualnetworkrules | いいえ | いいえ |
-> | servers / waitstatistics | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | locations | × | × |
+> | locations / azureasyncoperation | × | × |
+> | locations / operationresults | × | × |
+> | locations / performancetiers | × | × |
+> | locations / privateendpointconnectionazureasyncoperation | × | × |
+> | locations / privateendpointconnectionoperationresults | × | × |
+> | locations / privateendpointconnectionproxyazureasyncoperation | × | × |
+> | locations / privateendpointconnectionproxyoperationresults | × | × |
+> | locations / recommendedactionsessionsazureasyncoperation | × | × |
+> | locations / recommendedactionsessionsoperationresults | × | × |
+> | locations / securityalertpoliciesazureasyncoperation | × | × |
+> | locations / securityalertpoliciesoperationresults | × | × |
+> | locations / serverkeyazureasyncoperation | × | × |
+> | locations / serverkeyoperationresults | × | × |
+> | operations | × | × |
+> | servers | ○ | ○ |
+> | servers / advisors | × | × |
+> | servers / privateendpointconnectionproxies | × | × |
+> | servers / privateendpointconnections | × | × |
+> | servers / privatelinkresources | × | × |
+> | servers / querytexts | × | × |
+> | servers / recoverableservers | × | × |
+> | servers / topquerystatistics | × | × |
+> | servers / virtualnetworkrules | × | × |
+> | servers / waitstatistics | × | × |
 
 ## <a name="microsoftdbformysql"></a>Microsoft.DBforMySQL
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / administratorazureasyncoperation | いいえ | いいえ |
-> | locations / administratoroperationresults | いいえ | いいえ |
-> | locations / azureasyncoperation | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / performancetiers | いいえ | いいえ |
-> | locations / privateendpointconnectionazureasyncoperation | いいえ | いいえ |
-> | locations / privateendpointconnectionoperationresults | いいえ | いいえ |
-> | locations / privateendpointconnectionproxyazureasyncoperation | いいえ | いいえ |
-> | locations / privateendpointconnectionproxyoperationresults | いいえ | いいえ |
-> | locations / recommendedactionsessionsazureasyncoperation | いいえ | いいえ |
-> | locations / recommendedactionsessionsoperationresults | いいえ | いいえ |
-> | locations / securityalertpoliciesazureasyncoperation | いいえ | いいえ |
-> | locations / securityalertpoliciesoperationresults | いいえ | いいえ |
-> | locations / serverkeyazureasyncoperation | いいえ | いいえ |
-> | locations / serverkeyoperationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | servers | はい | はい |
-> | servers / advisors | いいえ | いいえ |
-> | servers / keys | いいえ | いいえ |
-> | servers / privateendpointconnectionproxies | いいえ | いいえ |
-> | servers / privateendpointconnections | いいえ | いいえ |
-> | servers / privatelinkresources | いいえ | いいえ |
-> | servers / querytexts | いいえ | いいえ |
-> | servers / recoverableservers | いいえ | いいえ |
-> | servers / topquerystatistics | いいえ | いいえ |
-> | servers / virtualnetworkrules | いいえ | いいえ |
-> | servers / waitstatistics | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | locations | × | × |
+> | locations / administratorazureasyncoperation | × | × |
+> | locations / administratoroperationresults | × | × |
+> | locations / azureasyncoperation | × | × |
+> | locations / operationresults | × | × |
+> | locations / performancetiers | × | × |
+> | locations / privateendpointconnectionazureasyncoperation | × | × |
+> | locations / privateendpointconnectionoperationresults | × | × |
+> | locations / privateendpointconnectionproxyazureasyncoperation | × | × |
+> | locations / privateendpointconnectionproxyoperationresults | × | × |
+> | locations / recommendedactionsessionsazureasyncoperation | × | × |
+> | locations / recommendedactionsessionsoperationresults | × | × |
+> | locations / securityalertpoliciesazureasyncoperation | × | × |
+> | locations / securityalertpoliciesoperationresults | × | × |
+> | locations / serverkeyazureasyncoperation | × | × |
+> | locations / serverkeyoperationresults | × | × |
+> | operations | × | × |
+> | servers | ○ | ○ |
+> | servers / advisors | × | × |
+> | servers / keys | × | × |
+> | servers / privateendpointconnectionproxies | × | × |
+> | servers / privateendpointconnections | × | × |
+> | servers / privatelinkresources | × | × |
+> | servers / querytexts | × | × |
+> | servers / recoverableservers | × | × |
+> | servers / topquerystatistics | × | × |
+> | servers / virtualnetworkrules | × | × |
+> | servers / waitstatistics | × | × |
 
 ## <a name="microsoftdbforpostgresql"></a>Microsoft.DBforPostgreSQL
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / administratorazureasyncoperation | いいえ | いいえ |
-> | locations / administratoroperationresults | いいえ | いいえ |
-> | locations / azureasyncoperation | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / performancetiers | いいえ | いいえ |
-> | locations / privateendpointconnectionazureasyncoperation | いいえ | いいえ |
-> | locations / privateendpointconnectionoperationresults | いいえ | いいえ |
-> | locations / privateendpointconnectionproxyazureasyncoperation | いいえ | いいえ |
-> | locations / privateendpointconnectionproxyoperationresults | いいえ | いいえ |
-> | locations / recommendedactionsessionsazureasyncoperation | いいえ | いいえ |
-> | locations / recommendedactionsessionsoperationresults | いいえ | いいえ |
-> | locations / securityalertpoliciesazureasyncoperation | いいえ | いいえ |
-> | locations / securityalertpoliciesoperationresults | いいえ | いいえ |
-> | locations / serverkeyazureasyncoperation | いいえ | いいえ |
-> | locations / serverkeyoperationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | servergroups | いいえ | いいえ |
-> | servers | はい | はい |
-> | servers / advisors | いいえ | いいえ |
-> | servers / keys | いいえ | いいえ |
-> | servers / privateendpointconnectionproxies | いいえ | いいえ |
-> | servers / privateendpointconnections | いいえ | いいえ |
-> | servers / privatelinkresources | いいえ | いいえ |
-> | servers / querytexts | いいえ | いいえ |
-> | servers / recoverableservers | いいえ | いいえ |
-> | servers / topquerystatistics | いいえ | いいえ |
-> | servers / virtualnetworkrules | いいえ | いいえ |
-> | servers / waitstatistics | いいえ | いいえ |
-> | serversv2 | はい | はい |
-> | singleservers | はい | はい |
+> | checknameavailability | × | × |
+> | locations | × | × |
+> | locations / administratorazureasyncoperation | × | × |
+> | locations / administratoroperationresults | × | × |
+> | locations / azureasyncoperation | × | × |
+> | locations / operationresults | × | × |
+> | locations / performancetiers | × | × |
+> | locations / privateendpointconnectionazureasyncoperation | × | × |
+> | locations / privateendpointconnectionoperationresults | × | × |
+> | locations / privateendpointconnectionproxyazureasyncoperation | × | × |
+> | locations / privateendpointconnectionproxyoperationresults | × | × |
+> | locations / recommendedactionsessionsazureasyncoperation | × | × |
+> | locations / recommendedactionsessionsoperationresults | × | × |
+> | locations / securityalertpoliciesazureasyncoperation | × | × |
+> | locations / securityalertpoliciesoperationresults | × | × |
+> | locations / serverkeyazureasyncoperation | × | × |
+> | locations / serverkeyoperationresults | × | × |
+> | operations | × | × |
+> | servergroups | × | × |
+> | servers | ○ | ○ |
+> | servers / advisors | × | × |
+> | servers / keys | × | × |
+> | servers / privateendpointconnectionproxies | × | × |
+> | servers / privateendpointconnections | × | × |
+> | servers / privatelinkresources | × | × |
+> | servers / querytexts | × | × |
+> | servers / recoverableservers | × | × |
+> | servers / topquerystatistics | × | × |
+> | servers / virtualnetworkrules | × | × |
+> | servers / waitstatistics | × | × |
+> | serversv2 | ○ | ○ |
+> | singleservers | ○ | ○ |
 
 ## <a name="microsoftdeploymentmanager"></a>Microsoft.DeploymentManager
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | artifactsources | はい | はい |
-> | operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | rollouts | はい | はい |
-> | servicetopologies | はい | はい |
-> | servicetopologies/services | はい | はい |
-> | servicetopologies/services/serviceunits | はい | はい |
-> | steps | はい | はい |
+> | artifactsources | ○ | ○ |
+> | operationresults | × | × |
+> | operations | × | × |
+> | rollouts | ○ | ○ |
+> | servicetopologies | ○ | ○ |
+> | servicetopologies/services | ○ | ○ |
+> | servicetopologies/services/serviceunits | ○ | ○ |
+> | steps | ○ | ○ |
 
 ## <a name="microsoftdesktopvirtualization"></a>Microsoft.DesktopVirtualization
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | applicationgroups | はい | はい |
-> | applicationgroups / applications | いいえ | いいえ |
-> | applicationgroups / desktops | いいえ | いいえ |
-> | applicationgroups / startmenuitems | いいえ | いいえ |
-> | hostpools | はい | はい |
-> | hostpools / sessionhosts | いいえ | いいえ |
-> | hostpools / sessionhosts / usersessions | いいえ | いいえ |
-> | hostpools / usersessions | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | workspaces | はい | はい |
+> | applicationgroups | ○ | ○ |
+> | applicationgroups / applications | × | × |
+> | applicationgroups / desktops | × | × |
+> | applicationgroups / startmenuitems | × | × |
+> | hostpools | ○ | ○ |
+> | hostpools / sessionhosts | × | × |
+> | hostpools / sessionhosts / usersessions | × | × |
+> | hostpools / usersessions | × | × |
+> | operations | × | × |
+> | workspaces | ○ | ○ |
 
 ## <a name="microsoftdevices"></a>Microsoft.Devices
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | checkprovisioningservicenameavailability | いいえ | いいえ |
-> | elasticpools | いいえ | いいえ |
-> | elasticpools/iothubtenants | いいえ | いいえ |
-> | iothubs | はい | はい |
-> | iothubs / eventgridfilters | いいえ | いいえ |
-> | iothubs / securitysettings | いいえ | いいえ |
-> | operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | provisioningservices | はい | はい |
-> | usages | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | checkprovisioningservicenameavailability | × | × |
+> | elasticpools | × | × |
+> | elasticpools/iothubtenants | × | × |
+> | iothubs | ○ | ○ |
+> | iothubs / eventgridfilters | × | × |
+> | iothubs / securitysettings | × | × |
+> | operationresults | × | × |
+> | operations | × | × |
+> | provisioningservices | ○ | ○ |
+> | usages | × | × |
 
 ## <a name="microsoftdevops"></a>Microsoft.DevOps
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | pipelines | はい | はい |
+> | pipelines | ○ | ○ |
 
 ## <a name="microsoftdevspaces"></a>Microsoft.DevSpaces
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | controllers | はい | はい |
-> | controllers / listconnectiondetails | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / checkcontainerhostmapping | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | controllers | ○ | ○ |
+> | controllers / listconnectiondetails | × | × |
+> | locations | × | × |
+> | locations / checkcontainerhostmapping | × | × |
+> | locations / operationresults | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftdevtestlab"></a>Microsoft.DevTestLab
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | labcenters | いいえ | いいえ |
-> | labs | はい | いいえ |
-> | labs/environments | はい | はい |
-> | labs/servicerunners | はい | はい |
-> | labs/virtualmachines | はい | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operations | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | schedules | はい | はい |
+> | labcenters | × | × |
+> | labs | ○ | × |
+> | labs/environments | ○ | ○ |
+> | labs/servicerunners | ○ | ○ |
+> | labs/virtualmachines | ○ | × |
+> | locations | × | × |
+> | locations / operations | × | × |
+> | operations | × | × |
+> | schedules | ○ | ○ |
 
 ## <a name="microsoftdigitaltwins"></a>Microsoft.DigitalTwins
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | digitaltwinsinstances | いいえ | いいえ |
-> | digitaltwinsinstances / operationresults | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | digitaltwinsinstances | × | × |
+> | digitaltwinsinstances / operationresults | × | × |
+> | locations | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftdocumentdb"></a>Microsoft.DocumentDB
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | databaseaccountnames | いいえ | いいえ |
-> | databaseaccounts | はい | はい |
-> | locations | いいえ | いいえ |
-> | locations / deletevirtualnetworkorsubnets | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / operationsstatus | いいえ | いいえ |
-> | operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | databaseaccountnames | × | × |
+> | databaseaccounts | ○ | ○ |
+> | locations | × | × |
+> | locations / deletevirtualnetworkorsubnets | × | × |
+> | locations / operationresults | × | × |
+> | locations / operationsstatus | × | × |
+> | operationresults | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftdomainregistration"></a>Microsoft.DomainRegistration
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checkdomainavailability | いいえ | いいえ |
-> | domains | はい | はい |
-> | domains / domainownershipidentifiers | いいえ | いいえ |
-> | generatessorequest | いいえ | いいえ |
-> | listdomainrecommendations | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | topleveldomains | いいえ | いいえ |
-> | validatedomainregistrationinformation | いいえ | いいえ |
+> | checkdomainavailability | × | × |
+> | domains | ○ | ○ |
+> | domains / domainownershipidentifiers | × | × |
+> | generatessorequest | × | × |
+> | listdomainrecommendations | × | × |
+> | operations | × | × |
+> | topleveldomains | × | × |
+> | validatedomainregistrationinformation | × | × |
 
 ## <a name="microsoftenterpriseknowledgegraph"></a>Microsoft.EnterpriseKnowledgeGraph
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | services | はい | はい |
+> | locations | × | × |
+> | locations / operationresults | × | × |
+> | operations | × | × |
+> | services | ○ | ○ |
 
 ## <a name="microsofteventgrid"></a>Microsoft.EventGrid
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | domains | はい | はい |
-> | domains / topics | いいえ | いいえ |
-> | eventsubscriptions | いいえ - 個別に移動できませんが、サブスクライブしたリソースで自動的に移動されます。 | いいえ - 個別に移動できませんが、サブスクライブしたリソースで自動的に移動されます。 |
-> | extensiontopics | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / eventsubscriptions | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / operationsstatus | いいえ | いいえ |
-> | locations / topictypes | いいえ | いいえ |
-> | operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | operationsstatus | いいえ | いいえ |
-> | partnernamespaces | はい | はい |
-> | partnernamespaces / eventchannels | いいえ | いいえ |
-> | partnerregistrations | いいえ | いいえ |
-> | partnertopics | はい | はい |
-> | partnertopics / eventsubscriptions | いいえ | いいえ |
-> | systemtopics | はい | はい |
-> | systemtopics / eventsubscriptions | いいえ | いいえ |
-> | topics | はい | はい |
-> | topictypes | いいえ | いいえ |
+> | domains | ○ | ○ |
+> | domains / topics | × | × |
+> | eventsubscriptions | × - 個別に移動できませんが、サブスクライブしたリソースで自動的に移動されます。 | × - 個別に移動できませんが、サブスクライブしたリソースで自動的に移動されます。 |
+> | extensiontopics | × | × |
+> | locations | × | × |
+> | locations / eventsubscriptions | × | × |
+> | locations / operationresults | × | × |
+> | locations / operationsstatus | × | × |
+> | locations / topictypes | × | × |
+> | operationresults | × | × |
+> | operations | × | × |
+> | operationsstatus | × | × |
+> | partnernamespaces | ○ | ○ |
+> | partnernamespaces / eventchannels | × | × |
+> | partnerregistrations | × | × |
+> | partnertopics | ○ | ○ |
+> | partnertopics / eventsubscriptions | × | × |
+> | systemtopics | ○ | ○ |
+> | systemtopics / eventsubscriptions | × | × |
+> | topics | ○ | ○ |
+> | topictypes | × | × |
 
 ## <a name="microsofteventhub"></a>Microsoft.EventHub
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | availableclusterregions | いいえ | いいえ |
-> | checknameavailability | いいえ | いいえ |
-> | checknamespaceavailability | いいえ | いいえ |
-> | clusters | はい | はい |
-> | locations | いいえ | いいえ |
-> | locations / deletevirtualnetworkorsubnets | いいえ | いいえ |
-> | namespaces | はい | はい |
-> | namespaces / authorizationrules | いいえ | いいえ |
-> | namespaces / disasterrecoveryconfigs | いいえ | いいえ |
-> | namespaces / disasterrecoveryconfigs / checknameavailability | いいえ | いいえ |
-> | namespaces / eventhubs | いいえ | いいえ |
-> | namespaces / eventhubs / authorizationrules | いいえ | いいえ |
-> | namespaces / eventhubs / consumergroups | いいえ | いいえ |
-> | namespaces / networkrulesets | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | sku | いいえ | いいえ |
+> | availableclusterregions | × | × |
+> | checknameavailability | × | × |
+> | checknamespaceavailability | × | × |
+> | clusters | ○ | ○ |
+> | locations | × | × |
+> | locations / deletevirtualnetworkorsubnets | × | × |
+> | namespaces | ○ | ○ |
+> | namespaces / authorizationrules | × | × |
+> | namespaces / disasterrecoveryconfigs | × | × |
+> | namespaces / disasterrecoveryconfigs / checknameavailability | × | × |
+> | namespaces / eventhubs | × | × |
+> | namespaces / eventhubs / authorizationrules | × | × |
+> | namespaces / eventhubs / consumergroups | × | × |
+> | namespaces / networkrulesets | × | × |
+> | operations | × | × |
+> | sku | × | × |
 
 ## <a name="microsoftexperimentation"></a>Microsoft.Experimentation
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | experimentworkspaces | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operations | いいえ | いいえ |
+> | experimentworkspaces | × | × |
+> | locations | × | × |
+> | locations / operations | × | × |
 
 ## <a name="microsoftfalcon"></a>Microsoft.Falcon
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | namespaces | はい | はい |
+> | namespaces | ○ | ○ |
 
 ## <a name="microsoftfeatures"></a>Microsoft.Features
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | featureproviders | いいえ | いいえ |
-> | features | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | providers | いいえ | いいえ |
-> | subscriptionfeatureregistrations | いいえ | いいえ |
+> | featureproviders | × | × |
+> | features | × | × |
+> | operations | × | × |
+> | providers | × | × |
+> | subscriptionfeatureregistrations | × | × |
 
 ## <a name="microsoftgenomics"></a>Microsoft.Genomics
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | accounts | いいえ | いいえ |
+> | accounts | × | × |
 
 ## <a name="microsoftguestconfiguration"></a>Microsoft.GuestConfiguration
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | automanagedaccounts | いいえ | いいえ |
-> | automanagedvmconfigurationprofiles | いいえ | いいえ |
-> | guestconfigurationassignments | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | software | いいえ | いいえ |
-> | softwareupdateprofile | いいえ | いいえ |
-> | softwareupdates | いいえ | いいえ |
+> | automanagedaccounts | × | × |
+> | automanagedvmconfigurationprofiles | × | × |
+> | guestconfigurationassignments | × | × |
+> | operations | × | × |
+> | software | × | × |
+> | softwareupdateprofile | × | × |
+> | softwareupdates | × | × |
 
 ## <a name="microsofthanaonazure"></a>Microsoft.HanaOnAzure
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | hanainstances | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operations | いいえ | いいえ |
-> | locations / operationsstatus | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | sapmonitors | はい | はい |
+> | hanainstances | × | × |
+> | locations | × | × |
+> | locations / operations | × | × |
+> | locations / operationsstatus | × | × |
+> | operations | × | × |
+> | sapmonitors | ○ | ○ |
 
 ## <a name="microsofthardwaresecuritymodules"></a>Microsoft.HardwareSecurityModules
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | dedicatedhsms | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | dedicatedhsms | × | × |
+> | locations | × | × |
+> | operations | × | × |
 
 ## <a name="microsofthdinsight"></a>Microsoft.HDInsight
 
@@ -1621,16 +1621,16 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | clusters | はい | ○ |
-> | clusters/applications | × | いいえ |
-> | clusters / operationresults | × | いいえ |
-> | locations | × | いいえ |
-> | locations / azureasyncoperations | × | いいえ |
-> | locations / billingspecs | × | いいえ |
-> | locations / capabilities | × | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / usages | × | いいえ |
-> | locations / validatecreaterequest | いいえ | × |
+> | clusters | ○ | ○ |
+> | clusters/applications | × | × |
+> | clusters / operationresults | × | × |
+> | locations | × | × |
+> | locations / azureasyncoperations | × | × |
+> | locations / billingspecs | × | × |
+> | locations / capabilities | × | × |
+> | locations / operationresults | × | × |
+> | locations / usages | × | × |
+> | locations / validatecreaterequest | × | × |
 > | operations | × | × |
 
 ## <a name="microsofthealthcareapis"></a>Microsoft.HealthcareApis
@@ -1638,64 +1638,64 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | services | はい | はい |
-> | services / privateendpointconnections | いいえ | いいえ |
-> | services / privatelinkresources | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | locations | × | × |
+> | locations / operationresults | × | × |
+> | operations | × | × |
+> | services | ○ | ○ |
+> | services / privateendpointconnections | × | × |
+> | services / privatelinkresources | × | × |
 
 ## <a name="microsofthybridcompute"></a>Microsoft.HybridCompute
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / operationstatus | いいえ | いいえ |
-> | machines | はい | はい |
-> | machines / extensions | はい | はい |
-> | operations | いいえ | いいえ |
+> | locations | × | × |
+> | locations / operationresults | × | × |
+> | locations / operationstatus | × | × |
+> | machines | ○ | ○ |
+> | machines / extensions | ○ | ○ |
+> | operations | × | × |
 
 ## <a name="microsofthybriddata"></a>Microsoft.HybridData
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | datamanagers | はい | はい |
-> | operations | いいえ | いいえ |
+> | datamanagers | ○ | ○ |
+> | operations | × | × |
 
 ## <a name="microsofthybridnetwork"></a>Microsoft.HybridNetwork
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | devices | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | vnfs | いいえ | いいえ |
+> | devices | × | × |
+> | locations | × | × |
+> | locations / operationstatuses | × | × |
+> | operations | × | × |
+> | vnfs | × | × |
 
 ## <a name="microsofthydra"></a>Microsoft.Hydra
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | components | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | networkscopes | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | components | × | × |
+> | locations | × | × |
+> | networkscopes | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftimportexport"></a>Microsoft.ImportExport
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | jobs | はい | はい |
-> | locations | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | jobs | ○ | ○ |
+> | locations | × | × |
+> | locations / operationresults | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftinsights"></a>microsoft.insights
 
@@ -1705,77 +1705,77 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | actiongroups | はい | ○ |
-> | activitylogalerts | いいえ | × |
-> | alertrules | はい | ○ |
-> | autoscalesettings | はい | ○ |
-> | baseline | いいえ | × |
-> | calculatebaseline | いいえ | × |
-> | components | はい | はい |
-> | components / events | いいえ | × |
-> | components / linkedstorageaccounts | いいえ | いいえ |
-> | components / metadata | いいえ | × |
-> | components / metrics | いいえ | × |
-> | components / pricingplans | いいえ | × |
-> | components / query | いいえ | × |
-> | datacollectionrules | いいえ | × |
-> | diagnosticsettings | いいえ | いいえ |
-> | diagnosticsettingscategories | いいえ | × |
-> | eventcategories | いいえ | × |
-> | eventtypes | いいえ | いいえ |
-> | extendeddiagnosticsettings | いいえ | いいえ |
-> | guestdiagnosticsettings | いいえ | いいえ |
-> | listmigrationdate | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | logdefinitions | いいえ | いいえ |
-> | logprofiles | いいえ | いいえ |
-> | logs | いいえ | いいえ |
-> | metricalerts | いいえ | いいえ |
-> | metricbaselines | いいえ | いいえ |
-> | metricbatch | いいえ | いいえ |
-> | metricdefinitions | いいえ | いいえ |
-> | metricnamespaces | いいえ | いいえ |
-> | metrics | いいえ | いいえ |
-> | migratealertrules | いいえ | いいえ |
-> | migratetonewpricingmodel | いいえ | いいえ |
-> | myworkbooks | いいえ | いいえ |
-> | notificationgroups | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | privatelinkscopeoperationstatuses | いいえ | いいえ |
-> | privatelinkscopes | いいえ | いいえ |
-> | privatelinkscopes / privateendpointconnectionproxies | いいえ | いいえ |
-> | privatelinkscopes / privateendpointconnections | いいえ | いいえ |
-> | privatelinkscopes / scopedresources | いいえ | いいえ |
-> | rollbacktolegacypricingmodel | いいえ | いいえ |
-> | scheduledqueryrules | はい | はい |
-> | トポロジ | いいえ | いいえ |
-> | トランザクション | いいえ | いいえ |
-> | vminsightsonboardingstatuses | いいえ | いいえ |
-> | webtests | はい | はい |
-> | webtests / gettestresultfile | いいえ | いいえ |
-> | Workbooks | はい | はい |
-> | workbooktemplates | はい | はい |
+> | actiongroups | ○ | ○ |
+> | activitylogalerts | × | × |
+> | alertrules | ○ | ○ |
+> | autoscalesettings | ○ | ○ |
+> | baseline | × | × |
+> | calculatebaseline | × | × |
+> | components | ○ | ○ |
+> | components / events | × | × |
+> | components / linkedstorageaccounts | × | × |
+> | components / metadata | × | × |
+> | components / metrics | × | × |
+> | components / pricingplans | × | × |
+> | components / query | × | × |
+> | datacollectionrules | × | × |
+> | diagnosticsettings | × | × |
+> | diagnosticsettingscategories | × | × |
+> | eventcategories | × | × |
+> | eventtypes | × | × |
+> | extendeddiagnosticsettings | × | × |
+> | guestdiagnosticsettings | × | × |
+> | listmigrationdate | × | × |
+> | locations | × | × |
+> | locations / operationresults | × | × |
+> | logdefinitions | × | × |
+> | logprofiles | × | × |
+> | logs | × | × |
+> | metricalerts | × | × |
+> | metricbaselines | × | × |
+> | metricbatch | × | × |
+> | metricdefinitions | × | × |
+> | metricnamespaces | × | × |
+> | metrics | × | × |
+> | migratealertrules | × | × |
+> | migratetonewpricingmodel | × | × |
+> | myworkbooks | × | × |
+> | notificationgroups | × | × |
+> | operations | × | × |
+> | privatelinkscopeoperationstatuses | × | × |
+> | privatelinkscopes | × | × |
+> | privatelinkscopes / privateendpointconnectionproxies | × | × |
+> | privatelinkscopes / privateendpointconnections | × | × |
+> | privatelinkscopes / scopedresources | × | × |
+> | rollbacktolegacypricingmodel | × | × |
+> | scheduledqueryrules | ○ | ○ |
+> | トポロジ | × | × |
+> | トランザクション | × | × |
+> | vminsightsonboardingstatuses | × | × |
+> | webtests | ○ | ○ |
+> | webtests / gettestresultfile | × | × |
+> | Workbooks | ○ | ○ |
+> | workbooktemplates | ○ | ○ |
 
 ## <a name="microsoftiotcentral"></a>Microsoft.IoTCentral
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | apptemplates | いいえ | いいえ |
-> | checknameavailability | いいえ | いいえ |
-> | checksubdomainavailability | いいえ | いいえ |
-> | iotapps | はい | はい |
-> | operations | いいえ | いいえ |
+> | apptemplates | × | × |
+> | checknameavailability | × | × |
+> | checksubdomainavailability | × | × |
+> | iotapps | ○ | ○ |
+> | operations | × | × |
 
 ## <a name="microsoftiotspaces"></a>Microsoft.IoTSpaces
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | はい | はい |
-> | graph | はい | はい |
-> | operations | いいえ | いいえ |
+> | checknameavailability | ○ | ○ |
+> | graph | ○ | ○ |
+> | operations | × | × |
 
 ## <a name="microsoftkeyvault"></a>Microsoft.KeyVault
 
@@ -1785,333 +1785,333 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | deletedvaults | いいえ | いいえ |
-> | hsmpools | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / deletedvaults | いいえ | いいえ |
-> | locations / deletevirtualnetworkorsubnets | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | managedhsms | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | vaults | はい | はい |
-> | vaults / accesspolicies | いいえ | いいえ |
-> | vaults / eventgridfilters | いいえ | いいえ |
-> | vaults / secrets | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | deletedvaults | × | × |
+> | hsmpools | × | × |
+> | locations | × | × |
+> | locations / deletedvaults | × | × |
+> | locations / deletevirtualnetworkorsubnets | × | × |
+> | locations / operationresults | × | × |
+> | managedhsms | × | × |
+> | operations | × | × |
+> | vaults | ○ | ○ |
+> | vaults / accesspolicies | × | × |
+> | vaults / eventgridfilters | × | × |
+> | vaults / secrets | × | × |
 
 ## <a name="microsoftkubernetes"></a>Microsoft.Kubernetes
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | connectedclusters | はい | はい |
-> | locations | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | registeredsubscriptions | いいえ | いいえ |
+> | connectedclusters | ○ | ○ |
+> | locations | × | × |
+> | locations / operationstatuses | × | × |
+> | operations | × | × |
+> | registeredsubscriptions | × | × |
 
 ## <a name="microsoftkubernetesconfiguration"></a>Microsoft.KubernetesConfiguration
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | sourcecontrolconfigurations | いいえ | いいえ |
+> | sourcecontrolconfigurations | × | × |
 
 ## <a name="microsoftkusto"></a>Microsoft.Kusto
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | clusters | はい | はい |
-> | clusters / attacheddatabaseconfigurations | いいえ | いいえ |
-> | clusters / databases | いいえ | いいえ |
-> | clusters / databases / dataconnections | いいえ | いいえ |
-> | clusters / databases / eventhubconnections | いいえ | いいえ |
-> | clusters / databases / principalassignments | いいえ | いいえ |
-> | clusters / principalassignments | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | clusters | ○ | ○ |
+> | clusters / attacheddatabaseconfigurations | × | × |
+> | clusters / databases | × | × |
+> | clusters / databases / dataconnections | × | × |
+> | clusters / databases / eventhubconnections | × | × |
+> | clusters / databases / principalassignments | × | × |
+> | clusters / principalassignments | × | × |
+> | locations | × | × |
+> | locations / checknameavailability | × | × |
+> | locations / operationresults | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftlabservices"></a>Microsoft.LabServices
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | labaccounts | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operations | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | users | いいえ | いいえ |
+> | labaccounts | × | × |
+> | locations | × | × |
+> | locations / operations | × | × |
+> | operations | × | × |
+> | users | × | × |
 
 ## <a name="microsoftlocationbasedservices"></a>Microsoft.LocationBasedServices
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | accounts | いいえ | いいえ |
+> | accounts | × | × |
 
 ## <a name="microsoftlocationservices"></a>Microsoft.LocationServices
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | accounts | いいえ | いいえ |
+> | accounts | × | × |
 
 ## <a name="microsoftlogic"></a>Microsoft.Logic
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | hostingenvironments | いいえ | いいえ |
-> | integrationaccounts | はい | はい |
-> | integrationserviceenvironments | はい | いいえ |
-> | integrationserviceenvironments / managedapis | はい | いいえ |
-> | isolatedenvironments | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / workflows | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | workflows | はい | はい |
+> | hostingenvironments | × | × |
+> | integrationaccounts | ○ | ○ |
+> | integrationserviceenvironments | ○ | × |
+> | integrationserviceenvironments / managedapis | ○ | × |
+> | isolatedenvironments | × | × |
+> | locations | × | × |
+> | locations / workflows | × | × |
+> | operations | × | × |
+> | workflows | ○ | ○ |
 
 ## <a name="microsoftmachinelearning"></a>Microsoft.MachineLearning
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | commitmentplans | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operations | いいえ | いいえ |
-> | locations / operationsstatus | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | webservices | はい | いいえ |
-> | workspaces | はい | はい |
+> | commitmentplans | × | × |
+> | locations | × | × |
+> | locations / operations | × | × |
+> | locations / operationsstatus | × | × |
+> | operations | × | × |
+> | webservices | ○ | × |
+> | workspaces | ○ | ○ |
 
 ## <a name="microsoftmachinelearningcompute"></a>Microsoft.MachineLearningCompute
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | operationalizationclusters | いいえ | いいえ |
+> | operationalizationclusters | × | × |
 
 ## <a name="microsoftmachinelearningexperimentation"></a>Microsoft.MachineLearningExperimentation
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | accounts | いいえ | いいえ |
-> | accounts/workspaces | いいえ | いいえ |
-> | accounts/workspaces/projects | いいえ | いいえ |
-> | teamaccounts | いいえ | いいえ |
-> | teamaccounts/workspaces | いいえ | いいえ |
-> | teamaccounts/workspaces/projects | いいえ | いいえ |
+> | accounts | × | × |
+> | accounts/workspaces | × | × |
+> | accounts/workspaces/projects | × | × |
+> | teamaccounts | × | × |
+> | teamaccounts/workspaces | × | × |
+> | teamaccounts/workspaces/projects | × | × |
 
 ## <a name="microsoftmachinelearningmodelmanagement"></a>Microsoft.MachineLearningModelManagement
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | accounts | いいえ | いいえ |
+> | accounts | × | × |
 
 ## <a name="microsoftmachinelearningservices"></a>Microsoft.MachineLearningServices
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / computeoperationsstatus | いいえ | いいえ |
-> | locations / quotas | いいえ | いいえ |
-> | locations / updatequotas | いいえ | いいえ |
-> | locations / usages | いいえ | いいえ |
-> | locations / vmsizes | いいえ | いいえ |
-> | locations / workspaceoperationsstatus | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | workspaces | いいえ | いいえ |
-> | workspaces / computes | いいえ | いいえ |
-> | workspaces / eventgridfilters | いいえ | いいえ |
+> | locations | × | × |
+> | locations / computeoperationsstatus | × | × |
+> | locations / quotas | × | × |
+> | locations / updatequotas | × | × |
+> | locations / usages | × | × |
+> | locations / vmsizes | × | × |
+> | locations / workspaceoperationsstatus | × | × |
+> | operations | × | × |
+> | workspaces | × | × |
+> | workspaces / computes | × | × |
+> | workspaces / eventgridfilters | × | × |
 
 ## <a name="microsoftmaintenance"></a>Microsoft.Maintenance
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | applyupdates | いいえ | いいえ |
-> | configurationassignments | いいえ | いいえ |
-> | maintenanceconfigurations | はい | はい |
-> | updates | いいえ | いいえ |
+> | applyupdates | × | × |
+> | configurationassignments | × | × |
+> | maintenanceconfigurations | ○ | ○ |
+> | updates | × | × |
 
 ## <a name="microsoftmanagedidentity"></a>Microsoft.ManagedIdentity
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | ID | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | userassignedidentities | いいえ | いいえ |
+> | ID | × | × |
+> | operations | × | × |
+> | userassignedidentities | × | × |
 
 ## <a name="microsoftmanagednetwork"></a>Microsoft.ManagedNetwork
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | managednetworks | いいえ | いいえ |
-> | managednetworks / managednetworkgroups | いいえ | いいえ |
-> | managednetworks / managednetworkpeeringpolicies | いいえ | いいえ |
-> | 通知 (notification) | いいえ | いいえ |
+> | managednetworks | × | × |
+> | managednetworks / managednetworkgroups | × | × |
+> | managednetworks / managednetworkpeeringpolicies | × | × |
+> | 通知 (notification) | × | × |
 
 ## <a name="microsoftmanagedservices"></a>Microsoft.ManagedServices
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | marketplaceregistrationdefinitions | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | operationstatuses | いいえ | いいえ |
-> | registrationassignments | いいえ | いいえ |
-> | registrationdefinitions | いいえ | いいえ |
+> | marketplaceregistrationdefinitions | × | × |
+> | operations | × | × |
+> | operationstatuses | × | × |
+> | registrationassignments | × | × |
+> | registrationdefinitions | × | × |
 
 ## <a name="microsoftmanagement"></a>Microsoft.Management
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | getentities | いいえ | いいえ |
-> | managementgroups | いいえ | いいえ |
-> | managementgroups / settings | いいえ | いいえ |
-> | operationresults | いいえ | いいえ |
-> | operationresults / asyncoperation | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | resources | いいえ | いいえ |
-> | starttenantbackfill | いいえ | いいえ |
-> | tenantbackfillstatus | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | getentities | × | × |
+> | managementgroups | × | × |
+> | managementgroups / settings | × | × |
+> | operationresults | × | × |
+> | operationresults / asyncoperation | × | × |
+> | operations | × | × |
+> | resources | × | × |
+> | starttenantbackfill | × | × |
+> | tenantbackfillstatus | × | × |
 
 ## <a name="microsoftmaps"></a>Microsoft.Maps
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | accounts | はい | はい |
-> | accounts / eventgridfilters | いいえ | いいえ |
-> | accounts / privateatlases | はい | はい |
-> | operations | いいえ | いいえ |
+> | accounts | ○ | ○ |
+> | accounts / eventgridfilters | × | × |
+> | accounts / privateatlases | ○ | ○ |
+> | operations | × | × |
 
 ## <a name="microsoftmarketplace"></a>Microsoft.Marketplace
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | listavailableoffers | いいえ | いいえ |
-> | offers | いいえ | いいえ |
-> | offertypes | いいえ | いいえ |
-> | offertypes / publishers | いいえ | いいえ |
-> | offertypes / publishers / offers | いいえ | いいえ |
-> | offertypes / publishers / offers / plans | いいえ | いいえ |
-> | offertypes / publishers / offers / plans / agreements | いいえ | いいえ |
-> | offertypes / publishers / offers / plans / configs | いいえ | いいえ |
-> | offertypes / publishers / offers / plans / configs / importimage | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | privategalleryitems | いいえ | いいえ |
-> | privatestoreclient | いいえ | いいえ |
-> | privatestores | いいえ | いいえ |
-> | privatestores / offers | いいえ | いいえ |
-> | products | いいえ | いいえ |
-> | publishers | いいえ | いいえ |
-> | publishers / offers | いいえ | いいえ |
-> | publishers / offers / amendments | いいえ | いいえ |
-> | registrations | いいえ | いいえ |
+> | listavailableoffers | × | × |
+> | offers | × | × |
+> | offertypes | × | × |
+> | offertypes / publishers | × | × |
+> | offertypes / publishers / offers | × | × |
+> | offertypes / publishers / offers / plans | × | × |
+> | offertypes / publishers / offers / plans / agreements | × | × |
+> | offertypes / publishers / offers / plans / configs | × | × |
+> | offertypes / publishers / offers / plans / configs / importimage | × | × |
+> | operations | × | × |
+> | privategalleryitems | × | × |
+> | privatestoreclient | × | × |
+> | privatestores | × | × |
+> | privatestores / offers | × | × |
+> | products | × | × |
+> | publishers | × | × |
+> | publishers / offers | × | × |
+> | publishers / offers / amendments | × | × |
+> | registrations | × | × |
 
 ## <a name="microsoftmarketplaceapps"></a>Microsoft.MarketplaceApps
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | classicdevservices | いいえ | いいえ |
-> | listcommunicationpreference | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | updatecommunicationpreference | いいえ | いいえ |
+> | classicdevservices | × | × |
+> | listcommunicationpreference | × | × |
+> | operations | × | × |
+> | updatecommunicationpreference | × | × |
 
 ## <a name="microsoftmarketplaceordering"></a>Microsoft.MarketplaceOrdering
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | agreements | いいえ | いいえ |
-> | offertypes | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | agreements | × | × |
+> | offertypes | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftmedia"></a>Microsoft.Media
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | mediaservices | はい | はい |
-> | mediaservices / accountfilters | いいえ | いいえ |
-> | mediaservices / assets | いいえ | いいえ |
-> | mediaservices / assets / assetfilters | いいえ | いいえ |
-> | mediaservices / contentkeypolicies | いいえ | いいえ |
-> | mediaservices / eventgridfilters | いいえ | いいえ |
-> | mediaservices / liveeventoperations | いいえ | いいえ |
-> | mediaservices/liveevents | はい | はい |
-> | mediaservices / liveevents / liveoutputs | いいえ | いいえ |
-> | mediaservices / liveoutputoperations | いいえ | いいえ |
-> | mediaservices / streamingendpointoperations | いいえ | いいえ |
-> | mediaservices/streamingendpoints | はい | はい |
-> | mediaservices / streaminglocators | いいえ | いいえ |
-> | mediaservices / streamingpolicies | いいえ | いいえ |
-> | mediaservices / transforms | いいえ | いいえ |
-> | mediaservices / transforms / jobs | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | locations | × | × |
+> | locations / checknameavailability | × | × |
+> | mediaservices | ○ | ○ |
+> | mediaservices / accountfilters | × | × |
+> | mediaservices / assets | × | × |
+> | mediaservices / assets / assetfilters | × | × |
+> | mediaservices / contentkeypolicies | × | × |
+> | mediaservices / eventgridfilters | × | × |
+> | mediaservices / liveeventoperations | × | × |
+> | mediaservices/liveevents | ○ | ○ |
+> | mediaservices / liveevents / liveoutputs | × | × |
+> | mediaservices / liveoutputoperations | × | × |
+> | mediaservices / streamingendpointoperations | × | × |
+> | mediaservices/streamingendpoints | ○ | ○ |
+> | mediaservices / streaminglocators | × | × |
+> | mediaservices / streamingpolicies | × | × |
+> | mediaservices / transforms | × | × |
+> | mediaservices / transforms / jobs | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftmicroservices4spring"></a>Microsoft.Microservices4Spring
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | appclusters | いいえ | いいえ |
+> | appclusters | × | × |
 
 ## <a name="microsoftmigrate"></a>Microsoft.Migrate
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | assessmentprojects | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / assessmentoptions | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | migrateprojects | いいえ | いいえ |
-> | movecollections | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | projects | いいえ | いいえ |
+> | assessmentprojects | × | × |
+> | locations | × | × |
+> | locations / assessmentoptions | × | × |
+> | locations / checknameavailability | × | × |
+> | migrateprojects | × | × |
+> | movecollections | × | × |
+> | operations | × | × |
+> | projects | × | × |
 
 ## <a name="microsoftmixedreality"></a>Microsoft.MixedReality
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | holographicsbroadcastaccounts | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | objectunderstandingaccounts | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | remoterenderingaccounts | はい | はい |
-> | spatialanchorsaccounts | はい | はい |
+> | holographicsbroadcastaccounts | × | × |
+> | locations | × | × |
+> | locations / checknameavailability | × | × |
+> | objectunderstandingaccounts | × | × |
+> | operations | × | × |
+> | remoterenderingaccounts | ○ | ○ |
+> | spatialanchorsaccounts | ○ | ○ |
 
 ## <a name="microsoftnetapp"></a>Microsoft.NetApp
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | netappaccounts | いいえ | いいえ |
-> | netappaccounts/backuppolicies | いいえ | いいえ |
-> | netappaccounts/capacitypools | いいえ | いいえ |
-> | netappaccounts/capacitypools/volumes | いいえ | いいえ |
-> | netappaccounts/capacitypools/volumes/mounttargets | いいえ | いいえ |
-> | netappaccounts/capacitypools/volumes/snapshots | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | netappaccounts | × | × |
+> | netappaccounts/backuppolicies | × | × |
+> | netappaccounts/capacitypools | × | × |
+> | netappaccounts/capacitypools/volumes | × | × |
+> | netappaccounts/capacitypools/volumes/mounttargets | × | × |
+> | netappaccounts/capacitypools/volumes/snapshots | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftnetwork"></a>Microsoft.Network
 
@@ -2121,154 +2121,154 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | applicationgatewayavailablerequestheaders | いいえ | いいえ |
-> | applicationgatewayavailableresponseheaders | いいえ | いいえ |
-> | applicationgatewayavailableservervariables | いいえ | いいえ |
-> | applicationgatewayavailablessloptions | いいえ | いいえ |
-> | applicationgatewayavailablewafrulesets | いいえ | いいえ |
-> | applicationgateways | いいえ | いいえ |
-> | applicationgatewaywebapplicationfirewallpolicies | いいえ | いいえ |
-> | applicationsecuritygroups | はい | はい |
-> | azurefirewallfqdntags | いいえ | いいえ |
-> | azurefirewalls | いいえ | いいえ |
-> | bastionhosts | いいえ | いいえ |
-> | bgpservicecommunities | いいえ | いいえ |
-> | checkfrontdoornameavailability | いいえ | いいえ |
-> | checktrafficmanagernameavailability | いいえ | いいえ |
-> | connections | はい | はい |
-> | ddoscustompolicies | はい | はい |
-> | ddosprotectionplans | いいえ | いいえ |
-> | dnsoperationresults | いいえ | いいえ |
-> | dnsoperationstatuses | いいえ | いいえ |
-> | dnszones | はい | はい |
-> | dnszones/a | いいえ | いいえ |
-> | dnszones/aaaa | いいえ | いいえ |
-> | dnszones / all | いいえ | いいえ |
-> | dnszones / caa | いいえ | いいえ |
-> | dnszones/cname | いいえ | いいえ |
-> | dnszones/mx | いいえ | いいえ |
-> | dnszones / ns | いいえ | いいえ |
-> | dnszones/ptr | いいえ | いいえ |
-> | dnszones / recordsets | いいえ | いいえ |
-> | dnszones / soa | いいえ | いいえ |
-> | dnszones/srv | いいえ | いいえ |
-> | dnszones/txt | いいえ | いいえ |
-> | expressroutecircuits | いいえ | いいえ |
-> | expressroutegateways | いいえ | いいえ |
-> | expressrouteserviceproviders | いいえ | いいえ |
-> | firewallpolicies | はい | はい |
-> | frontdooroperationresults | いいえ | いいえ |
-> | frontdoors | いいえ | いいえ |
-> | frontdoors / frontendendpoints | いいえ | いいえ |
-> | frontdoorwebapplicationfirewallmanagedrulesets | いいえ | いいえ |
-> | frontdoorwebapplicationfirewallpolicies | いいえ | いいえ |
-> | getdnsresourcereference | いいえ | いいえ |
-> | internalnotify | いいえ | いいえ |
-> | ipallocations | はい | はい |
-> | ipgroups | はい | はい |
-> | loadbalancers | はい - Basic SKU<br>いいえ - Standard SKU | はい - Basic SKU<br>いいえ - Standard SKU |
-> | localnetworkgateways | はい | はい |
-> | locations | いいえ | いいえ |
-> | locations / autoapprovedprivatelinkservices | いいえ | × |
-> | locations / availabledelegations | いいえ | × |
-> | locations / availableprivateendpointtypes | いいえ | × |
-> | locations / availableservicealiases | いいえ | × |
-> | locations / baremetaltenants | いいえ | × |
-> | locations / batchnotifyprivateendpointsforresourcemove | いいえ | × |
-> | locations / batchvalidateprivateendpointsforresourcemove | いいえ | × |
-> | locations / checkacceleratednetworkingsupport | いいえ | × |
-> | locations / checkdnsnameavailability | いいえ | × |
-> | locations / checkprivatelinkservicevisibility | いいえ | × |
-> | locations / commitinternalazurenetworkmanagerconfiguration | いいえ | × |
-> | locations / effectiveresourceownership | いいえ | × |
-> | locations / nfvoperationresults | いいえ | × |
-> | locations / nfvoperations | いいえ | いいえ |
-> | locations / operationresults | いいえ | × |
-> | locations / operations | いいえ | × |
-> | locations / servicetags | いいえ | × |
-> | locations / setresourceownership | いいえ | × |
-> | locations / supportedvirtualmachinesizes | いいえ | × |
-> | locations / usages | いいえ | × |
-> | locations / validateresourceownership | いいえ | × |
-> | locations / virtualnetworkavailableendpointservices | いいえ | × |
-> | natgateways | いいえ | × |
-> | networkexperimentprofiles | いいえ | × |
-> | networkintentpolicies | はい | ○ |
-> | networkinterfaces | はい | ○ |
-> | networkprofiles | いいえ | × |
-> | networksecuritygroups | はい | はい |
-> | networkwatchers | はい | いいえ |
-> | networkwatchers/connectionmonitors | ○ | いいえ |
-> | networkwatchers/flowlogs | ○ | いいえ |
-> | networkwatchers/pingmeshes | はい | いいえ |
-> | operations | いいえ | × |
-> | p2svpngateways | いいえ | × |
-> | privatednsoperationresults | いいえ | × |
-> | privatednsoperationstatuses | いいえ | × |
-> | privatednszones | はい | ○ |
-> | privatednszones / a | いいえ | × |
-> | privatednszones / aaaa | いいえ | × |
-> | privatednszones / all | いいえ | × |
-> | privatednszones / cname | いいえ | × |
-> | privatednszones / mx | いいえ | × |
-> | privatednszones / ptr | いいえ | × |
-> | privatednszones / soa | いいえ | × |
-> | privatednszones / srv | いいえ | × |
-> | privatednszones / txt | いいえ | × |
-> | privatednszones/virtualnetworklinks | はい | はい |
-> | privatednszonesinternal | いいえ | × |
-> | privateendpointredirectmaps | いいえ | × |
-> | privateendpoints | はい | ○ |
-> | privatelinkservices | いいえ | × |
-> | publicipaddresses | はい - Basic SKU<br>いいえ - Standard SKU | はい - Basic SKU<br>いいえ - Standard SKU |
-> | publicipprefixes | はい | ○ |
-> | routefilters | いいえ | × |
-> | routetables | はい | ○ |
-> | securitypartnerproviders | はい | ○ |
-> | serviceendpointpolicies | はい | ○ |
-> | trafficmanagergeographichierarchies | いいえ | × |
-> | trafficmanagerprofiles | はい | ○ |
-> | trafficmanagerprofiles / heatmaps | いいえ | × |
-> | trafficmanagerusermetricskeys | いいえ | いいえ |
-> | virtualhubs | いいえ | × |
-> | virtualnetworkgateways | はい | ○ |
-> | virtualnetworks | はい | ○ |
-> | virtualnetworktaps | いいえ | × |
-> | virtualrouters | はい | はい |
-> | virtualwans | いいえ | × |
-> | vpngateways (仮想 WAN) | いいえ | × |
-> | vpnserverconfigurations | いいえ | × |
-> | vpnsites (仮想 WAN) | いいえ | × |
+> | applicationgatewayavailablerequestheaders | × | × |
+> | applicationgatewayavailableresponseheaders | × | × |
+> | applicationgatewayavailableservervariables | × | × |
+> | applicationgatewayavailablessloptions | × | × |
+> | applicationgatewayavailablewafrulesets | × | × |
+> | applicationgateways | × | × |
+> | applicationgatewaywebapplicationfirewallpolicies | × | × |
+> | applicationsecuritygroups | ○ | ○ |
+> | azurefirewallfqdntags | × | × |
+> | azurefirewalls | × | × |
+> | bastionhosts | × | × |
+> | bgpservicecommunities | × | × |
+> | checkfrontdoornameavailability | × | × |
+> | checktrafficmanagernameavailability | × | × |
+> | connections | ○ | ○ |
+> | ddoscustompolicies | ○ | ○ |
+> | ddosprotectionplans | × | × |
+> | dnsoperationresults | × | × |
+> | dnsoperationstatuses | × | × |
+> | dnszones | ○ | ○ |
+> | dnszones/a | × | × |
+> | dnszones/aaaa | × | × |
+> | dnszones / all | × | × |
+> | dnszones / caa | × | × |
+> | dnszones/cname | × | × |
+> | dnszones/mx | × | × |
+> | dnszones / ns | × | × |
+> | dnszones/ptr | × | × |
+> | dnszones / recordsets | × | × |
+> | dnszones / soa | × | × |
+> | dnszones/srv | × | × |
+> | dnszones/txt | × | × |
+> | expressroutecircuits | × | × |
+> | expressroutegateways | × | × |
+> | expressrouteserviceproviders | × | × |
+> | firewallpolicies | ○ | ○ |
+> | frontdooroperationresults | × | × |
+> | frontdoors | × | × |
+> | frontdoors / frontendendpoints | × | × |
+> | frontdoorwebapplicationfirewallmanagedrulesets | × | × |
+> | frontdoorwebapplicationfirewallpolicies | × | × |
+> | getdnsresourcereference | × | × |
+> | internalnotify | × | × |
+> | ipallocations | ○ | ○ |
+> | ipgroups | ○ | ○ |
+> | loadbalancers | ○ - Basic SKU<br>× - Standard SKU | ○ - Basic SKU<br>× - Standard SKU |
+> | localnetworkgateways | ○ | ○ |
+> | locations | × | × |
+> | locations / autoapprovedprivatelinkservices | × | × |
+> | locations / availabledelegations | × | × |
+> | locations / availableprivateendpointtypes | × | × |
+> | locations / availableservicealiases | × | × |
+> | locations / baremetaltenants | × | × |
+> | locations / batchnotifyprivateendpointsforresourcemove | × | × |
+> | locations / batchvalidateprivateendpointsforresourcemove | × | × |
+> | locations / checkacceleratednetworkingsupport | × | × |
+> | locations / checkdnsnameavailability | × | × |
+> | locations / checkprivatelinkservicevisibility | × | × |
+> | locations / commitinternalazurenetworkmanagerconfiguration | × | × |
+> | locations / effectiveresourceownership | × | × |
+> | locations / nfvoperationresults | × | × |
+> | locations / nfvoperations | × | × |
+> | locations / operationresults | × | × |
+> | locations / operations | × | × |
+> | locations / servicetags | × | × |
+> | locations / setresourceownership | × | × |
+> | locations / supportedvirtualmachinesizes | × | × |
+> | locations / usages | × | × |
+> | locations / validateresourceownership | × | × |
+> | locations / virtualnetworkavailableendpointservices | × | × |
+> | natgateways | × | × |
+> | networkexperimentprofiles | × | × |
+> | networkintentpolicies | ○ | ○ |
+> | networkinterfaces | ○ | ○ |
+> | networkprofiles | × | × |
+> | networksecuritygroups | ○ | ○ |
+> | networkwatchers | ○ | × |
+> | networkwatchers/connectionmonitors | ○ | × |
+> | networkwatchers/flowlogs | ○ | × |
+> | networkwatchers/pingmeshes | ○ | × |
+> | operations | × | × |
+> | p2svpngateways | × | × |
+> | privatednsoperationresults | × | × |
+> | privatednsoperationstatuses | × | × |
+> | privatednszones | ○ | ○ |
+> | privatednszones / a | × | × |
+> | privatednszones / aaaa | × | × |
+> | privatednszones / all | × | × |
+> | privatednszones / cname | × | × |
+> | privatednszones / mx | × | × |
+> | privatednszones / ptr | × | × |
+> | privatednszones / soa | × | × |
+> | privatednszones / srv | × | × |
+> | privatednszones / txt | × | × |
+> | privatednszones/virtualnetworklinks | ○ | ○ |
+> | privatednszonesinternal | × | × |
+> | privateendpointredirectmaps | × | × |
+> | privateendpoints | ○ | ○ |
+> | privatelinkservices | × | × |
+> | publicipaddresses | ○ - Basic SKU<br>× - Standard SKU | ○ - Basic SKU<br>× - Standard SKU |
+> | publicipprefixes | ○ | ○ |
+> | routefilters | × | × |
+> | routetables | ○ | ○ |
+> | securitypartnerproviders | ○ | ○ |
+> | serviceendpointpolicies | ○ | ○ |
+> | trafficmanagergeographichierarchies | × | × |
+> | trafficmanagerprofiles | ○ | ○ |
+> | trafficmanagerprofiles / heatmaps | × | × |
+> | trafficmanagerusermetricskeys | × | × |
+> | virtualhubs | × | × |
+> | virtualnetworkgateways | ○ | ○ |
+> | virtualnetworks | ○ | ○ |
+> | virtualnetworktaps | × | × |
+> | virtualrouters | ○ | ○ |
+> | virtualwans | × | × |
+> | vpngateways (仮想 WAN) | × | × |
+> | vpnserverconfigurations | × | × |
+> | vpnsites (仮想 WAN) | × | × |
 
 ## <a name="microsoftnotificationhubs"></a>Microsoft.NotificationHubs
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | checknamespaceavailability | いいえ | いいえ |
-> | namespaces | はい | はい |
-> | namespaces/notificationhubs | はい | はい |
-> | operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | checknamespaceavailability | × | × |
+> | namespaces | ○ | ○ |
+> | namespaces/notificationhubs | ○ | ○ |
+> | operationresults | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftobjectstore"></a>Microsoft.ObjectStore
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | osnamespaces | はい | はい |
+> | osnamespaces | ○ | ○ |
 
 ## <a name="microsoftoffazure"></a>Microsoft.OffAzure
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | hypervsites | いいえ | いいえ |
-> | importsites | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | serversites | いいえ | いいえ |
-> | vmwaresites | いいえ | いいえ |
+> | hypervsites | × | × |
+> | importsites | × | × |
+> | operations | × | × |
+> | serversites | × | × |
+> | vmwaresites | × | × |
 
 ## <a name="microsoftoperationalinsights"></a>Microsoft.OperationalInsights
 
@@ -2280,129 +2280,129 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | clusters | いいえ | いいえ |
-> | deletedworkspaces | いいえ | いいえ |
-> | linktargets | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | storageinsightconfigs | いいえ | × |
-> | workspaces | はい | はい |
-> | workspaces / datasources | いいえ | いいえ |
-> | workspaces / linkedservices | いいえ | いいえ |
-> | workspaces / linkedstorageaccounts | いいえ | いいえ |
-> | workspaces / metadata | いいえ | いいえ |
-> | workspaces / query | いいえ | いいえ |
-> | workspaces / scopedprivatelinkproxies | いいえ | × |
+> | clusters | × | × |
+> | deletedworkspaces | × | × |
+> | linktargets | × | × |
+> | locations | × | × |
+> | locations / operationstatuses | × | × |
+> | operations | × | × |
+> | storageinsightconfigs | × | × |
+> | workspaces | ○ | ○ |
+> | workspaces / datasources | × | × |
+> | workspaces / linkedservices | × | × |
+> | workspaces / linkedstorageaccounts | × | × |
+> | workspaces / metadata | × | × |
+> | workspaces / query | × | × |
+> | workspaces / scopedprivatelinkproxies | × | × |
 
 ## <a name="microsoftoperationsmanagement"></a>Microsoft.OperationsManagement
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | managementassociations | いいえ | いいえ |
-> | managementconfigurations | はい | はい |
-> | operations | いいえ | いいえ |
-> | solutions | はい | はい |
-> | views | はい | はい |
+> | managementassociations | × | × |
+> | managementconfigurations | ○ | ○ |
+> | operations | × | × |
+> | solutions | ○ | ○ |
+> | views | ○ | ○ |
 
 ## <a name="microsoftpeering"></a>Microsoft.Peering
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checkserviceprovideravailability | いいえ | いいえ |
-> | legacypeerings | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | peerasns | いいえ | いいえ |
-> | peeringlocations | いいえ | いいえ |
-> | peerings | いいえ | いいえ |
-> | peeringservicecountries | いいえ | いいえ |
-> | peeringservicelocations | いいえ | いいえ |
-> | peeringserviceproviders | いいえ | いいえ |
-> | peeringservices | いいえ | いいえ |
+> | checkserviceprovideravailability | × | × |
+> | legacypeerings | × | × |
+> | operations | × | × |
+> | peerasns | × | × |
+> | peeringlocations | × | × |
+> | peerings | × | × |
+> | peeringservicecountries | × | × |
+> | peeringservicelocations | × | × |
+> | peeringserviceproviders | × | × |
+> | peeringservices | × | × |
 
 ## <a name="microsoftpolicyinsights"></a>Microsoft.PolicyInsights
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | asyncoperationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | policyevents | いいえ | いいえ |
-> | policystates | いいえ | いいえ |
-> | policytrackedresources | いいえ | いいえ |
-> | remediations | いいえ | いいえ |
+> | asyncoperationresults | × | × |
+> | operations | × | × |
+> | policyevents | × | × |
+> | policystates | × | × |
+> | policytrackedresources | × | × |
+> | remediations | × | × |
 
 ## <a name="microsoftportal"></a>Microsoft.Portal
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | consoles | いいえ | いいえ |
-> | dashboards | はい | はい |
-> | locations | いいえ | いいえ |
-> | locations / consoles | いいえ | いいえ |
-> | locations / usersettings | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | usersettings | いいえ | いいえ |
+> | consoles | × | × |
+> | dashboards | ○ | ○ |
+> | locations | × | × |
+> | locations / consoles | × | × |
+> | locations / usersettings | × | × |
+> | operations | × | × |
+> | usersettings | × | × |
 
 ## <a name="microsoftpowerbi"></a>Microsoft.PowerBI
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | workspacecollections | はい | はい |
+> | locations | × | × |
+> | locations / checknameavailability | × | × |
+> | workspacecollections | ○ | ○ |
 
 ## <a name="microsoftpowerbidedicated"></a>Microsoft.PowerBIDedicated
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | capacities | はい | はい |
-> | locations | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | capacities | ○ | ○ |
+> | locations | × | × |
+> | locations / checknameavailability | × | × |
+> | locations / operationresults | × | × |
+> | locations / operationstatuses | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftpowerplatform"></a>Microsoft.PowerPlatform
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | operations | いいえ | いいえ |
+> | operations | × | × |
 
 ## <a name="microsoftprojectbabylon"></a>Microsoft.ProjectBabylon
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | accounts | いいえ | いいえ |
-> | checknameavailability | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | accounts | × | × |
+> | checknameavailability | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftproviderhub"></a>Microsoft.ProviderHub
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | availableaccounts | いいえ | いいえ |
-> | providerregistrations | いいえ | いいえ |
-> | providerregistrations / resourcetyperegistrations | いいえ | いいえ |
-> | rollouts | いいえ | いいえ |
+> | availableaccounts | × | × |
+> | providerregistrations | × | × |
+> | providerregistrations / resourcetyperegistrations | × | × |
+> | rollouts | × | × |
 
 ## <a name="microsoftquantum"></a>Microsoft.Quantum
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | workspaces | いいえ | いいえ |
+> | locations | × | × |
+> | locations / operationstatuses | × | × |
+> | operations | × | × |
+> | workspaces | × | × |
 
 ## <a name="microsoftrecoveryservices"></a>Microsoft.RecoveryServices
 
@@ -2412,123 +2412,123 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | backupprotecteditems | いいえ | × |
-> | locations | いいえ | × |
-> | locations / allocatedstamp | いいえ | × |
-> | locations / allocatestamp | いいえ | × |
-> | locations / backupaadproperties | いいえ | × |
-> | locations / backupcrossregionrestore | いいえ | × |
-> | locations / backupcrrjob | いいえ | × |
-> | locations / backupcrrjobs | いいえ | × |
-> | locations / backupcrroperationresults | いいえ | × |
-> | locations / backupcrroperationsstatus | いいえ | × |
-> | locations / backupprevalidateprotection | いいえ | いいえ |
-> | locations / backupstatus | いいえ | × |
-> | locations / backupvalidatefeatures | いいえ | × |
-> | locations / checknameavailability | いいえ | × |
-> | operations | いいえ | × |
-> | replicationeligibilityresults | いいえ | × |
-> | vaults | はい | はい |
+> | backupprotecteditems | × | × |
+> | locations | × | × |
+> | locations / allocatedstamp | × | × |
+> | locations / allocatestamp | × | × |
+> | locations / backupaadproperties | × | × |
+> | locations / backupcrossregionrestore | × | × |
+> | locations / backupcrrjob | × | × |
+> | locations / backupcrrjobs | × | × |
+> | locations / backupcrroperationresults | × | × |
+> | locations / backupcrroperationsstatus | × | × |
+> | locations / backupprevalidateprotection | × | × |
+> | locations / backupstatus | × | × |
+> | locations / backupvalidatefeatures | × | × |
+> | locations / checknameavailability | × | × |
+> | operations | × | × |
+> | replicationeligibilityresults | × | × |
+> | vaults | ○ | ○ |
 
 ## <a name="microsoftredhatopenshift"></a>Microsoft.RedHatOpenShift
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / operationsstatus | いいえ | いいえ |
-> | openshiftclusters | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | locations | × | × |
+> | locations / operationresults | × | × |
+> | locations / operationsstatus | × | × |
+> | openshiftclusters | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftrelay"></a>Microsoft.Relay
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | namespaces | はい | はい |
-> | namespaces / authorizationrules | いいえ | いいえ |
-> | namespaces / hybridconnections | いいえ | いいえ |
-> | namespaces / hybridconnections / authorizationrules | いいえ | いいえ |
-> | namespaces / privateendpointconnections | いいえ | いいえ |
-> | namespaces / wcfrelays | いいえ | いいえ |
-> | namespaces / wcfrelays / authorizationrules | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | namespaces | ○ | ○ |
+> | namespaces / authorizationrules | × | × |
+> | namespaces / hybridconnections | × | × |
+> | namespaces / hybridconnections / authorizationrules | × | × |
+> | namespaces / privateendpointconnections | × | × |
+> | namespaces / wcfrelays | × | × |
+> | namespaces / wcfrelays / authorizationrules | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftresourcegraph"></a>Microsoft.ResourceGraph
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | operations | いいえ | いいえ |
-> | Query | はい | はい |
-> | resourcechangedetails | いいえ | いいえ |
-> | resourcechanges | いいえ | いいえ |
-> | resources | いいえ | いいえ |
-> | resourceshistory | いいえ | いいえ |
-> | subscriptionsstatus | いいえ | いいえ |
+> | operations | × | × |
+> | Query | ○ | ○ |
+> | resourcechangedetails | × | × |
+> | resourcechanges | × | × |
+> | resources | × | × |
+> | resourceshistory | × | × |
+> | subscriptionsstatus | × | × |
 
 ## <a name="microsoftresourcehealth"></a>Microsoft.ResourceHealth
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | availabilitystatuses | いいえ | いいえ |
-> | childavailabilitystatuses | いいえ | いいえ |
-> | childresources | いいえ | いいえ |
-> | emergingissues | いいえ | いいえ |
-> | events | いいえ | いいえ |
-> | metadata | いいえ | いいえ |
-> | notifications | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | availabilitystatuses | × | × |
+> | childavailabilitystatuses | × | × |
+> | childresources | × | × |
+> | emergingissues | × | × |
+> | events | × | × |
+> | metadata | × | × |
+> | notifications | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftresources"></a>Microsoft.Resources
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | calculatetemplatehash | いいえ | いいえ |
-> | checkpolicycompliance | いいえ | いいえ |
-> | checkresourcename | いいえ | いいえ |
-> | deployments | いいえ | いいえ |
-> | deployments / operations | いいえ | いいえ |
-> | deploymentscripts | いいえ | いいえ |
-> | deploymentscripts / logs | いいえ | いいえ |
-> | リンク | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / deploymentscriptoperationresults | いいえ | いいえ |
-> | notifyresourcejobs | いいえ | いいえ |
-> | operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | providers | いいえ | いいえ |
-> | resourcegroups | いいえ | いいえ |
-> | resources | いいえ | いいえ |
-> | subscriptions | いいえ | いいえ |
-> | subscriptions / locations | いいえ | いいえ |
-> | subscriptions / operationresults | いいえ | いいえ |
-> | subscriptions / providers | いいえ | いいえ |
-> | subscriptions / resourcegroups | いいえ | いいえ |
-> | subscriptions / resourcegroups / resources | いいえ | いいえ |
-> | subscriptions / resources | いいえ | いいえ |
-> | subscriptions / tagnames | いいえ | いいえ |
-> | subscriptions / tagnames / tagvalues | いいえ | いいえ |
-> | tags | いいえ | いいえ |
-> | templatespecs | いいえ | いいえ |
-> | templatespecs / versions | いいえ | いいえ |
-> | tenants | いいえ | いいえ |
+> | calculatetemplatehash | × | × |
+> | checkpolicycompliance | × | × |
+> | checkresourcename | × | × |
+> | deployments | × | × |
+> | deployments / operations | × | × |
+> | deploymentscripts | × | × |
+> | deploymentscripts / logs | × | × |
+> | リンク | × | × |
+> | locations | × | × |
+> | locations / deploymentscriptoperationresults | × | × |
+> | notifyresourcejobs | × | × |
+> | operationresults | × | × |
+> | operations | × | × |
+> | providers | × | × |
+> | resourcegroups | × | × |
+> | resources | × | × |
+> | subscriptions | × | × |
+> | subscriptions / locations | × | × |
+> | subscriptions / operationresults | × | × |
+> | subscriptions / providers | × | × |
+> | subscriptions / resourcegroups | × | × |
+> | subscriptions / resourcegroups / resources | × | × |
+> | subscriptions / resources | × | × |
+> | subscriptions / tagnames | × | × |
+> | subscriptions / tagnames / tagvalues | × | × |
+> | tags | × | × |
+> | templatespecs | × | × |
+> | templatespecs / versions | × | × |
+> | tenants | × | × |
 
 ## <a name="microsoftsaas"></a>Microsoft.SaaS
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | applications | はい | いいえ |
-> | checkmoderneligibility | いいえ | いいえ |
-> | checknameavailability | いいえ | いいえ |
-> | operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | saasresources | いいえ | いいえ |
+> | applications | ○ | × |
+> | checkmoderneligibility | × | × |
+> | checknameavailability | × | × |
+> | operationresults | × | × |
+> | operations | × | × |
+> | saasresources | × | × |
 
 ## <a name="microsoftsearch"></a>Microsoft.Search
 
@@ -2538,213 +2538,213 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | × | いいえ |
-> | checkservicenameavailability | × | いいえ |
-> | operations | × | いいえ |
-> | resourcehealthmetadata | いいえ | いいえ |
-> | searchservices | はい | はい |
+> | checknameavailability | × | × |
+> | checkservicenameavailability | × | × |
+> | operations | × | × |
+> | resourcehealthmetadata | × | × |
+> | searchservices | ○ | ○ |
 
 ## <a name="microsoftsecurity"></a>Microsoft.Security
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | adaptivenetworkhardenings | いいえ | いいえ |
-> | advancedthreatprotectionsettings | いいえ | いいえ |
-> | alerts | いいえ | いいえ |
-> | allowedconnections | いいえ | いいえ |
-> | applicationwhitelistings | いいえ | いいえ |
-> | assessmentmetadata | いいえ | いいえ |
-> | assessments | いいえ | いいえ |
-> | autodismissalertsrules | いいえ | いいえ |
-> | automations | はい | はい |
-> | autoprovisioningsettings | いいえ | いいえ |
-> | complianceresults | いいえ | いいえ |
-> | compliances | いいえ | いいえ |
-> | datacollectionagents | いいえ | いいえ |
-> | devicesecuritygroups | いいえ | いいえ |
-> | discoveredsecuritysolutions | いいえ | いいえ |
-> | externalsecuritysolutions | いいえ | いいえ |
-> | informationprotectionpolicies | いいえ | いいえ |
-> | iotsecuritysolutions | はい | はい |
-> | iotsecuritysolutions / analyticsmodels | いいえ | いいえ |
-> | iotsecuritysolutions / analyticsmodels / aggregatedalerts | いいえ | いいえ |
-> | iotsecuritysolutions / analyticsmodels / aggregatedrecommendations | いいえ | いいえ |
-> | jitnetworkaccesspolicies | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / alerts | いいえ | いいえ |
-> | locations / allowedconnections | いいえ | いいえ |
-> | locations / applicationwhitelistings | いいえ | いいえ |
-> | locations / discoveredsecuritysolutions | いいえ | いいえ |
-> | locations / externalsecuritysolutions | いいえ | いいえ |
-> | locations / jitnetworkaccesspolicies | いいえ | いいえ |
-> | locations / securitysolutions | いいえ | いいえ |
-> | locations / securitysolutionsreferencedata | いいえ | いいえ |
-> | locations / tasks | いいえ | いいえ |
-> | locations / topologies | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | policies | いいえ | いいえ |
-> | pricings | いいえ | いいえ |
-> | regulatorycompliancestandards | いいえ | いいえ |
-> | regulatorycompliancestandards / regulatorycompliancecontrols | いいえ | いいえ |
-> | regulatorycompliancestandards / regulatorycompliancecontrols / regulatorycomplianceassessments | いいえ | いいえ |
-> | securitycontacts | いいえ | いいえ |
-> | securitysolutions | いいえ | いいえ |
-> | securitysolutionsreferencedata | いいえ | いいえ |
-> | securitystatuses | いいえ | いいえ |
-> | securitystatusessummaries | いいえ | いいえ |
-> | servervulnerabilityassessments | いいえ | いいえ |
-> | settings | いいえ | いいえ |
-> | subassessments | いいえ | いいえ |
-> | tasks | いいえ | いいえ |
-> | topologies | いいえ | いいえ |
-> | workspacesettings | いいえ | いいえ |
+> | adaptivenetworkhardenings | × | × |
+> | advancedthreatprotectionsettings | × | × |
+> | alerts | × | × |
+> | allowedconnections | × | × |
+> | applicationwhitelistings | × | × |
+> | assessmentmetadata | × | × |
+> | assessments | × | × |
+> | autodismissalertsrules | × | × |
+> | automations | ○ | ○ |
+> | autoprovisioningsettings | × | × |
+> | complianceresults | × | × |
+> | compliances | × | × |
+> | datacollectionagents | × | × |
+> | devicesecuritygroups | × | × |
+> | discoveredsecuritysolutions | × | × |
+> | externalsecuritysolutions | × | × |
+> | informationprotectionpolicies | × | × |
+> | iotsecuritysolutions | ○ | ○ |
+> | iotsecuritysolutions / analyticsmodels | × | × |
+> | iotsecuritysolutions / analyticsmodels / aggregatedalerts | × | × |
+> | iotsecuritysolutions / analyticsmodels / aggregatedrecommendations | × | × |
+> | jitnetworkaccesspolicies | × | × |
+> | locations | × | × |
+> | locations / alerts | × | × |
+> | locations / allowedconnections | × | × |
+> | locations / applicationwhitelistings | × | × |
+> | locations / discoveredsecuritysolutions | × | × |
+> | locations / externalsecuritysolutions | × | × |
+> | locations / jitnetworkaccesspolicies | × | × |
+> | locations / securitysolutions | × | × |
+> | locations / securitysolutionsreferencedata | × | × |
+> | locations / tasks | × | × |
+> | locations / topologies | × | × |
+> | operations | × | × |
+> | policies | × | × |
+> | pricings | × | × |
+> | regulatorycompliancestandards | × | × |
+> | regulatorycompliancestandards / regulatorycompliancecontrols | × | × |
+> | regulatorycompliancestandards / regulatorycompliancecontrols / regulatorycomplianceassessments | × | × |
+> | securitycontacts | × | × |
+> | securitysolutions | × | × |
+> | securitysolutionsreferencedata | × | × |
+> | securitystatuses | × | × |
+> | securitystatusessummaries | × | × |
+> | servervulnerabilityassessments | × | × |
+> | settings | × | × |
+> | subassessments | × | × |
+> | tasks | × | × |
+> | topologies | × | × |
+> | workspacesettings | × | × |
 
 ## <a name="microsoftsecurityinsights"></a>Microsoft.SecurityInsights
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | aggregations | いいえ | いいえ |
-> | alertrules | いいえ | いいえ |
-> | alertruletemplates | いいえ | いいえ |
-> | automationrules | いいえ | いいえ |
-> | bookmarks | いいえ | いいえ |
-> | cases | いいえ | いいえ |
-> | dataconnectors | いいえ | いいえ |
-> | dataconnectorscheckrequirements | いいえ | いいえ |
-> | entities | いいえ | いいえ |
-> | entityqueries | いいえ | いいえ |
-> | incidents | いいえ | いいえ |
-> | officeconsents | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | settings | いいえ | いいえ |
-> | threatintelligence | いいえ | いいえ |
+> | aggregations | × | × |
+> | alertrules | × | × |
+> | alertruletemplates | × | × |
+> | automationrules | × | × |
+> | bookmarks | × | × |
+> | cases | × | × |
+> | dataconnectors | × | × |
+> | dataconnectorscheckrequirements | × | × |
+> | entities | × | × |
+> | entityqueries | × | × |
+> | incidents | × | × |
+> | officeconsents | × | × |
+> | operations | × | × |
+> | settings | × | × |
+> | threatintelligence | × | × |
 
 ## <a name="microsoftserialconsole"></a>Microsoft.SerialConsole
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | consoleservices | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / consoleservices | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | consoleservices | × | × |
+> | locations | × | × |
+> | locations / consoleservices | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftservermanagement"></a>Microsoft.ServerManagement
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | gateways | いいえ | いいえ |
-> | nodes | いいえ | いいえ |
+> | gateways | × | × |
+> | nodes | × | × |
 
 ## <a name="microsoftservicebus"></a>Microsoft.ServiceBus
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | checknamespaceavailability | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / deletevirtualnetworkorsubnets | いいえ | いいえ |
-> | namespaces | はい | はい |
-> | namespaces / authorizationrules | いいえ | いいえ |
-> | namespaces / disasterrecoveryconfigs | いいえ | いいえ |
-> | namespaces / disasterrecoveryconfigs / checknameavailability | いいえ | いいえ |
-> | namespaces / eventgridfilters | いいえ | いいえ |
-> | namespaces / networkrulesets | いいえ | いいえ |
-> | namespaces / queues | いいえ | いいえ |
-> | namespaces / queues / authorizationrules | いいえ | いいえ |
-> | namespaces / topics | いいえ | いいえ |
-> | namespaces / topics / authorizationrules | いいえ | いいえ |
-> | namespaces / topics / subscriptions | いいえ | いいえ |
-> | namespaces / topics / subscriptions / rules | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | premiummessagingregions | いいえ | いいえ |
-> | sku | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | checknamespaceavailability | × | × |
+> | locations | × | × |
+> | locations / deletevirtualnetworkorsubnets | × | × |
+> | namespaces | ○ | ○ |
+> | namespaces / authorizationrules | × | × |
+> | namespaces / disasterrecoveryconfigs | × | × |
+> | namespaces / disasterrecoveryconfigs / checknameavailability | × | × |
+> | namespaces / eventgridfilters | × | × |
+> | namespaces / networkrulesets | × | × |
+> | namespaces / queues | × | × |
+> | namespaces / queues / authorizationrules | × | × |
+> | namespaces / topics | × | × |
+> | namespaces / topics / authorizationrules | × | × |
+> | namespaces / topics / subscriptions | × | × |
+> | namespaces / topics / subscriptions / rules | × | × |
+> | operations | × | × |
+> | premiummessagingregions | × | × |
+> | sku | × | × |
 
 ## <a name="microsoftservicefabric"></a>Microsoft.ServiceFabric
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | applications | いいえ | いいえ |
-> | clusters | はい | はい |
-> | clusters/applications | いいえ | いいえ |
-> | containergroups | いいえ | いいえ |
-> | containergroupsets | いいえ | いいえ |
-> | edgeclusters | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / clusterversions | いいえ | いいえ |
-> | locations / environments | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / operations | いいえ | いいえ |
-> | managedclusters | いいえ | いいえ |
-> | networks | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | secretstores | いいえ | いいえ |
-> | volumes | いいえ | いいえ |
+> | applications | × | × |
+> | clusters | ○ | ○ |
+> | clusters/applications | × | × |
+> | containergroups | × | × |
+> | containergroupsets | × | × |
+> | edgeclusters | × | × |
+> | locations | × | × |
+> | locations / clusterversions | × | × |
+> | locations / environments | × | × |
+> | locations / operationresults | × | × |
+> | locations / operations | × | × |
+> | managedclusters | × | × |
+> | networks | × | × |
+> | operations | × | × |
+> | secretstores | × | × |
+> | volumes | × | × |
 
 ## <a name="microsoftservicefabricmesh"></a>Microsoft.ServiceFabricMesh
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | applications | はい | はい |
-> | containergroups | いいえ | いいえ |
-> | gateways | はい | はい |
-> | locations | いいえ | いいえ |
-> | locations / applicationoperations | いいえ | いいえ |
-> | locations / gatewayoperations | いいえ | いいえ |
-> | locations / networkoperations | いいえ | いいえ |
-> | locations / secretoperations | いいえ | いいえ |
-> | locations / volumeoperations | いいえ | いいえ |
-> | networks | はい | はい |
-> | operations | いいえ | いいえ |
-> | secrets | はい | はい |
-> | volumes | はい | はい |
+> | applications | ○ | ○ |
+> | containergroups | × | × |
+> | gateways | ○ | ○ |
+> | locations | × | × |
+> | locations / applicationoperations | × | × |
+> | locations / gatewayoperations | × | × |
+> | locations / networkoperations | × | × |
+> | locations / secretoperations | × | × |
+> | locations / volumeoperations | × | × |
+> | networks | ○ | ○ |
+> | operations | × | × |
+> | secrets | ○ | ○ |
+> | volumes | ○ | ○ |
 
 ## <a name="microsoftservices"></a>Microsoft.Services
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | rollouts | いいえ | いいえ |
+> | rollouts | × | × |
 
 ## <a name="microsoftsignalrservice"></a>Microsoft.SignalRService
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | locations / usages | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | signalr | はい | はい |
-> | signalr / eventgridfilters | いいえ | いいえ |
+> | locations | × | × |
+> | locations / checknameavailability | × | × |
+> | locations / operationresults | × | × |
+> | locations / operationstatuses | × | × |
+> | locations / usages | × | × |
+> | operations | × | × |
+> | signalr | ○ | ○ |
+> | signalr / eventgridfilters | × | × |
 
 ## <a name="microsoftsoftwareplan"></a>Microsoft.SoftwarePlan
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | hybridusebenefits | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | hybridusebenefits | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftsolutions"></a>Microsoft.Solutions
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | applicationdefinitions | いいえ | いいえ |
-> | applications | いいえ | いいえ |
-> | jitrequests | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | applicationdefinitions | × | × |
+> | applications | × | × |
+> | jitrequests | × | × |
+> | locations | × | × |
+> | locations / operationstatuses | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftsql"></a>Microsoft.Sql
 
@@ -2754,261 +2754,261 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | instancepools | × | いいえ |
-> | locations | はい | ○ |
-> | locations / administratorazureasyncoperation | いいえ | いいえ |
-> | locations / administratoroperationresults | いいえ | いいえ |
-> | locations / auditingsettingsazureasyncoperation | いいえ | いいえ |
-> | locations / auditingsettingsoperationresults | いいえ | いいえ |
-> | locations / capabilities | いいえ | いいえ |
-> | locations / databaseazureasyncoperation | いいえ | いいえ |
-> | locations / databaseoperationresults | いいえ | いいえ |
-> | locations / databaserestoreazureasyncoperation | いいえ | いいえ |
-> | locations / deletevirtualnetworkorsubnets | いいえ | いいえ |
-> | locations / deletevirtualnetworkorsubnetsazureasyncoperation | いいえ | いいえ |
-> | locations / deletevirtualnetworkorsubnetsoperationresults | いいえ | いいえ |
-> | locations / dnsaliasasyncoperation | いいえ | いいえ |
-> | locations / dnsaliasoperationresults | いいえ | いいえ |
-> | locations / elasticpoolazureasyncoperation | いいえ | いいえ |
-> | locations / elasticpooloperationresults | いいえ | いいえ |
-> | locations / encryptionprotectorazureasyncoperation | いいえ | いいえ |
-> | locations / encryptionprotectoroperationresults | いいえ | いいえ |
-> | locations / extendedauditingsettingsazureasyncoperation | いいえ | いいえ |
-> | locations / extendedauditingsettingsoperationresults | いいえ | いいえ |
-> | locations / failovergroupazureasyncoperation | いいえ | いいえ |
-> | locations / failovergroupoperationresults | いいえ | いいえ |
-> | locations / firewallrulesazureasyncoperation | いいえ | いいえ |
-> | locations / firewallrulesoperationresults | いいえ | いいえ |
-> | locations / instancefailovergroupazureasyncoperation | いいえ | いいえ |
-> | locations / instancefailovergroupoperationresults | いいえ | いいえ |
-> | locations / instancefailovergroups | いいえ | いいえ |
-> | locations / instancepoolazureasyncoperation | いいえ | いいえ |
-> | locations / instancepooloperationresults | いいえ | いいえ |
-> | locations / jobagentazureasyncoperation | いいえ | いいえ |
-> | locations / jobagentoperationresults | いいえ | いいえ |
-> | locations / longtermretentionbackupazureasyncoperation | いいえ | いいえ |
-> | locations / longtermretentionbackupoperationresults | いいえ | いいえ |
-> | locations / longtermretentionbackups | いいえ | いいえ |
-> | locations / longtermretentionmanagedinstancebackupazureasyncoperation | いいえ | いいえ |
-> | locations / longtermretentionmanagedinstancebackupoperationresults | いいえ | いいえ |
-> | locations / longtermretentionmanagedinstancebackups | いいえ | いいえ |
-> | locations / longtermretentionmanagedinstances | いいえ | いいえ |
-> | locations / longtermretentionpolicyazureasyncoperation | いいえ | いいえ |
-> | locations / longtermretentionpolicyoperationresults | いいえ | いいえ |
-> | locations / longtermretentionservers | いいえ | いいえ |
-> | locations / manageddatabaseazureasyncoperation | いいえ | いいえ |
-> | locations / manageddatabasecompleterestoreazureasyncoperation | いいえ | いいえ |
-> | locations / manageddatabasecompleterestoreoperationresults | いいえ | いいえ |
-> | locations / manageddatabaseoperationresults | いいえ | いいえ |
-> | locations / manageddatabaserestoreazureasyncoperation | いいえ | いいえ |
-> | locations / manageddatabaserestoreoperationresults | いいえ | いいえ |
-> | locations / managedinstanceazureasyncoperation | いいえ | いいえ |
-> | locations / managedinstanceencryptionprotectorazureasyncoperation | いいえ | いいえ |
-> | locations / managedinstanceencryptionprotectoroperationresults | いいえ | いいえ |
-> | locations / managedinstancekeyazureasyncoperation | いいえ | いいえ |
-> | locations / managedinstancekeyoperationresults | いいえ | いいえ |
-> | locations / managedinstancelongtermretentionpolicyazureasyncoperation | いいえ | いいえ |
-> | locations / managedinstancelongtermretentionpolicyoperationresults | いいえ | いいえ |
-> | locations / managedinstanceoperationresults | いいえ | いいえ |
-> | locations / managedinstancetdecertazureasyncoperation | いいえ | いいえ |
-> | locations / managedinstancetdecertoperationresults | いいえ | いいえ |
-> | locations / managedserversecurityalertpoliciesazureasyncoperation | いいえ | いいえ |
-> | locations / managedserversecurityalertpoliciesoperationresults | いいえ | いいえ |
-> | locations / managedshorttermretentionpolicyazureasyncoperation | いいえ | いいえ |
-> | locations / managedshorttermretentionpolicyoperationresults | いいえ | いいえ |
-> | locations / notifyazureasyncoperation | いいえ | いいえ |
-> | locations / privateendpointconnectionazureasyncoperation | いいえ | いいえ |
-> | locations / privateendpointconnectionoperationresults | いいえ | いいえ |
-> | locations / privateendpointconnectionproxyazureasyncoperation | いいえ | いいえ |
-> | locations / privateendpointconnectionproxyoperationresults | いいえ | いいえ |
-> | locations / securityalertpoliciesazureasyncoperation | いいえ | いいえ |
-> | locations / securityalertpoliciesoperationresults | いいえ | いいえ |
-> | locations / serveradministratorazureasyncoperation | いいえ | いいえ |
-> | locations / serveradministratoroperationresults | いいえ | いいえ |
-> | locations / serverazureasyncoperation | いいえ | いいえ |
-> | locations / serverkeyazureasyncoperation | いいえ | いいえ |
-> | locations / serverkeyoperationresults | いいえ | いいえ |
-> | locations / serveroperationresults | いいえ | いいえ |
-> | locations / shorttermretentionpolicyazureasyncoperation | いいえ | いいえ |
-> | locations / shorttermretentionpolicyoperationresults | いいえ | いいえ |
-> | locations / syncagentoperationresults | いいえ | いいえ |
-> | locations / syncdatabaseids | いいえ | いいえ |
-> | locations / syncgroupoperationresults | いいえ | いいえ |
-> | locations / syncmemberoperationresults | いいえ | いいえ |
-> | locations / tdecertazureasyncoperation | いいえ | いいえ |
-> | locations / tdecertoperationresults | いいえ | いいえ |
-> | locations / usages | いいえ | いいえ |
-> | locations / virtualclusterazureasyncoperation | いいえ | いいえ |
-> | locations / virtualclusteroperationresults | いいえ | いいえ |
-> | locations / virtualnetworkrulesazureasyncoperation | いいえ | いいえ |
-> | locations / virtualnetworkrulesoperationresults | いいえ | いいえ |
-> | locations / vulnerabilityassessmentscanazureasyncoperation | いいえ | いいえ |
-> | locations / vulnerabilityassessmentscanoperationresults | いいえ | いいえ |
-> | managedinstances | いいえ | いいえ |
-> | managedinstances / administrators | いいえ | いいえ |
-> | managedinstances/databases | いいえ | いいえ |
-> | managedinstances / databases / backuplongtermretentionpolicies | いいえ | いいえ |
-> | managedinstances / databases / vulnerabilityassessments | いいえ | いいえ |
-> | managedinstances / metricdefinitions | いいえ | いいえ |
-> | managedinstances / metrics | いいえ | いいえ |
-> | managedinstances / recoverabledatabases | いいえ | いいえ |
-> | managedinstances / tdecertificates | いいえ | いいえ |
-> | managedinstances / vulnerabilityassessments | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | servers | はい | ○ |
-> | servers / administratoroperationresults | いいえ | いいえ |
-> | servers / administrators | いいえ | いいえ |
-> | servers / advisors | いいえ | いいえ |
-> | servers / aggregateddatabasemetrics | いいえ | いいえ |
-> | servers / auditingpolicies | いいえ | いいえ |
-> | servers / auditingsettings | いいえ | いいえ |
-> | servers / automatictuning | いいえ | いいえ |
-> | servers / communicationlinks | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | instancepools | × | × |
+> | locations | ○ | ○ |
+> | locations / administratorazureasyncoperation | × | × |
+> | locations / administratoroperationresults | × | × |
+> | locations / auditingsettingsazureasyncoperation | × | × |
+> | locations / auditingsettingsoperationresults | × | × |
+> | locations / capabilities | × | × |
+> | locations / databaseazureasyncoperation | × | × |
+> | locations / databaseoperationresults | × | × |
+> | locations / databaserestoreazureasyncoperation | × | × |
+> | locations / deletevirtualnetworkorsubnets | × | × |
+> | locations / deletevirtualnetworkorsubnetsazureasyncoperation | × | × |
+> | locations / deletevirtualnetworkorsubnetsoperationresults | × | × |
+> | locations / dnsaliasasyncoperation | × | × |
+> | locations / dnsaliasoperationresults | × | × |
+> | locations / elasticpoolazureasyncoperation | × | × |
+> | locations / elasticpooloperationresults | × | × |
+> | locations / encryptionprotectorazureasyncoperation | × | × |
+> | locations / encryptionprotectoroperationresults | × | × |
+> | locations / extendedauditingsettingsazureasyncoperation | × | × |
+> | locations / extendedauditingsettingsoperationresults | × | × |
+> | locations / failovergroupazureasyncoperation | × | × |
+> | locations / failovergroupoperationresults | × | × |
+> | locations / firewallrulesazureasyncoperation | × | × |
+> | locations / firewallrulesoperationresults | × | × |
+> | locations / instancefailovergroupazureasyncoperation | × | × |
+> | locations / instancefailovergroupoperationresults | × | × |
+> | locations / instancefailovergroups | × | × |
+> | locations / instancepoolazureasyncoperation | × | × |
+> | locations / instancepooloperationresults | × | × |
+> | locations / jobagentazureasyncoperation | × | × |
+> | locations / jobagentoperationresults | × | × |
+> | locations / longtermretentionbackupazureasyncoperation | × | × |
+> | locations / longtermretentionbackupoperationresults | × | × |
+> | locations / longtermretentionbackups | × | × |
+> | locations / longtermretentionmanagedinstancebackupazureasyncoperation | × | × |
+> | locations / longtermretentionmanagedinstancebackupoperationresults | × | × |
+> | locations / longtermretentionmanagedinstancebackups | × | × |
+> | locations / longtermretentionmanagedinstances | × | × |
+> | locations / longtermretentionpolicyazureasyncoperation | × | × |
+> | locations / longtermretentionpolicyoperationresults | × | × |
+> | locations / longtermretentionservers | × | × |
+> | locations / manageddatabaseazureasyncoperation | × | × |
+> | locations / manageddatabasecompleterestoreazureasyncoperation | × | × |
+> | locations / manageddatabasecompleterestoreoperationresults | × | × |
+> | locations / manageddatabaseoperationresults | × | × |
+> | locations / manageddatabaserestoreazureasyncoperation | × | × |
+> | locations / manageddatabaserestoreoperationresults | × | × |
+> | locations / managedinstanceazureasyncoperation | × | × |
+> | locations / managedinstanceencryptionprotectorazureasyncoperation | × | × |
+> | locations / managedinstanceencryptionprotectoroperationresults | × | × |
+> | locations / managedinstancekeyazureasyncoperation | × | × |
+> | locations / managedinstancekeyoperationresults | × | × |
+> | locations / managedinstancelongtermretentionpolicyazureasyncoperation | × | × |
+> | locations / managedinstancelongtermretentionpolicyoperationresults | × | × |
+> | locations / managedinstanceoperationresults | × | × |
+> | locations / managedinstancetdecertazureasyncoperation | × | × |
+> | locations / managedinstancetdecertoperationresults | × | × |
+> | locations / managedserversecurityalertpoliciesazureasyncoperation | × | × |
+> | locations / managedserversecurityalertpoliciesoperationresults | × | × |
+> | locations / managedshorttermretentionpolicyazureasyncoperation | × | × |
+> | locations / managedshorttermretentionpolicyoperationresults | × | × |
+> | locations / notifyazureasyncoperation | × | × |
+> | locations / privateendpointconnectionazureasyncoperation | × | × |
+> | locations / privateendpointconnectionoperationresults | × | × |
+> | locations / privateendpointconnectionproxyazureasyncoperation | × | × |
+> | locations / privateendpointconnectionproxyoperationresults | × | × |
+> | locations / securityalertpoliciesazureasyncoperation | × | × |
+> | locations / securityalertpoliciesoperationresults | × | × |
+> | locations / serveradministratorazureasyncoperation | × | × |
+> | locations / serveradministratoroperationresults | × | × |
+> | locations / serverazureasyncoperation | × | × |
+> | locations / serverkeyazureasyncoperation | × | × |
+> | locations / serverkeyoperationresults | × | × |
+> | locations / serveroperationresults | × | × |
+> | locations / shorttermretentionpolicyazureasyncoperation | × | × |
+> | locations / shorttermretentionpolicyoperationresults | × | × |
+> | locations / syncagentoperationresults | × | × |
+> | locations / syncdatabaseids | × | × |
+> | locations / syncgroupoperationresults | × | × |
+> | locations / syncmemberoperationresults | × | × |
+> | locations / tdecertazureasyncoperation | × | × |
+> | locations / tdecertoperationresults | × | × |
+> | locations / usages | × | × |
+> | locations / virtualclusterazureasyncoperation | × | × |
+> | locations / virtualclusteroperationresults | × | × |
+> | locations / virtualnetworkrulesazureasyncoperation | × | × |
+> | locations / virtualnetworkrulesoperationresults | × | × |
+> | locations / vulnerabilityassessmentscanazureasyncoperation | × | × |
+> | locations / vulnerabilityassessmentscanoperationresults | × | × |
+> | managedinstances | × | × |
+> | managedinstances / administrators | × | × |
+> | managedinstances/databases | × | × |
+> | managedinstances / databases / backuplongtermretentionpolicies | × | × |
+> | managedinstances / databases / vulnerabilityassessments | × | × |
+> | managedinstances / metricdefinitions | × | × |
+> | managedinstances / metrics | × | × |
+> | managedinstances / recoverabledatabases | × | × |
+> | managedinstances / tdecertificates | × | × |
+> | managedinstances / vulnerabilityassessments | × | × |
+> | operations | × | × |
+> | servers | ○ | ○ |
+> | servers / administratoroperationresults | × | × |
+> | servers / administrators | × | × |
+> | servers / advisors | × | × |
+> | servers / aggregateddatabasemetrics | × | × |
+> | servers / auditingpolicies | × | × |
+> | servers / auditingsettings | × | × |
+> | servers / automatictuning | × | × |
+> | servers / communicationlinks | × | × |
 > | servers / connectionpolicies | × | × |
-> | servers/databases | はい | ○ |
-> | servers / databases / advisors | いいえ | いいえ |
-> | servers / databases / auditingpolicies | いいえ | いいえ |
-> | servers / databases / auditingsettings | いいえ | いいえ |
-> | servers / databases / auditrecords | いいえ | いいえ |
-> | servers / databases / automatictuning | いいえ | いいえ |
-> | servers / databases / backuplongtermretentionpolicies | いいえ | いいえ |
-> | servers / databases / backupshorttermretentionpolicies | いいえ | いいえ |
-> | servers / databases / connectionpolicies | いいえ | いいえ |
-> | servers / databases / datamaskingpolicies | いいえ | いいえ |
-> | servers / databases / datamaskingpolicies / rules | いいえ | いいえ |
-> | servers / databases / extensions | いいえ | いいえ |
-> | servers / databases / geobackuppolicies | いいえ | いいえ |
-> | servers / databases / metricdefinitions | いいえ | いいえ |
-> | servers / databases / metrics | いいえ | いいえ |
-> | servers / databases / recommendedsensitivitylabels | いいえ | いいえ |
-> | servers / databases / securityalertpolicies | いいえ | いいえ |
-> | servers / databases / syncgroups | いいえ | いいえ |
-> | servers / databases / syncgroups / syncmembers | いいえ | いいえ |
-> | servers / databases / topqueries | いいえ | いいえ |
-> | servers / databases / topqueries / querytext | いいえ | いいえ |
-> | servers / databases / transparentdataencryption | いいえ | いいえ |
-> | servers / databases / vulnerabilityassessment | いいえ | いいえ |
-> | servers / databases / vulnerabilityassessments | いいえ | いいえ |
-> | servers / databases / vulnerabilityassessmentscans | いいえ | いいえ |
-> | servers / databases / vulnerabilityassessmentsettings | いいえ | いいえ |
-> | servers / databases / workloadgroups | いいえ | いいえ |
-> | servers / databasesecuritypolicies | いいえ | いいえ |
-> | servers / disasterrecoveryconfiguration | いいえ | いいえ |
-> | servers / dnsaliases | いいえ | いいえ |
-> | servers / elasticpoolestimates | いいえ | いいえ |
-> | servers/elasticpools | はい | はい |
-> | servers / elasticpools / advisors | いいえ | いいえ |
-> | servers / elasticpools / metricdefinitions | いいえ | いいえ |
-> | servers / elasticpools / metrics | いいえ | いいえ |
-> | servers / encryptionprotector | いいえ | いいえ |
-> | servers / extendedauditingsettings | いいえ | いいえ |
-> | servers / failovergroups | いいえ | いいえ |
-> | servers / import | いいえ | いいえ |
+> | servers/databases | ○ | ○ |
+> | servers / databases / advisors | × | × |
+> | servers / databases / auditingpolicies | × | × |
+> | servers / databases / auditingsettings | × | × |
+> | servers / databases / auditrecords | × | × |
+> | servers / databases / automatictuning | × | × |
+> | servers / databases / backuplongtermretentionpolicies | × | × |
+> | servers / databases / backupshorttermretentionpolicies | × | × |
+> | servers / databases / connectionpolicies | × | × |
+> | servers / databases / datamaskingpolicies | × | × |
+> | servers / databases / datamaskingpolicies / rules | × | × |
+> | servers / databases / extensions | × | × |
+> | servers / databases / geobackuppolicies | × | × |
+> | servers / databases / metricdefinitions | × | × |
+> | servers / databases / metrics | × | × |
+> | servers / databases / recommendedsensitivitylabels | × | × |
+> | servers / databases / securityalertpolicies | × | × |
+> | servers / databases / syncgroups | × | × |
+> | servers / databases / syncgroups / syncmembers | × | × |
+> | servers / databases / topqueries | × | × |
+> | servers / databases / topqueries / querytext | × | × |
+> | servers / databases / transparentdataencryption | × | × |
+> | servers / databases / vulnerabilityassessment | × | × |
+> | servers / databases / vulnerabilityassessments | × | × |
+> | servers / databases / vulnerabilityassessmentscans | × | × |
+> | servers / databases / vulnerabilityassessmentsettings | × | × |
+> | servers / databases / workloadgroups | × | × |
+> | servers / databasesecuritypolicies | × | × |
+> | servers / disasterrecoveryconfiguration | × | × |
+> | servers / dnsaliases | × | × |
+> | servers / elasticpoolestimates | × | × |
+> | servers/elasticpools | ○ | ○ |
+> | servers / elasticpools / advisors | × | × |
+> | servers / elasticpools / metricdefinitions | × | × |
+> | servers / elasticpools / metrics | × | × |
+> | servers / encryptionprotector | × | × |
+> | servers / extendedauditingsettings | × | × |
+> | servers / failovergroups | × | × |
+> | servers / import | × | × |
 > | servers / importexportoperationresults | × | × |
-> | servers/jobaccounts | はい | はい |
+> | servers/jobaccounts | ○ | ○ |
 > | servers/jobagents | ○ | ○ |
-> | servers / jobagents / jobs | いいえ | いいえ |
-> | servers / jobagents / jobs / executions | いいえ | いいえ |
-> | servers / jobagents / jobs / steps | いいえ | いいえ |
-> | servers / keys | いいえ | いいえ |
-> | servers / operationresults | いいえ | いいえ |
-> | servers / recommendedelasticpools | いいえ | いいえ |
-> | servers / recoverabledatabases | いいえ | いいえ |
-> | servers / restorabledroppeddatabases | いいえ | いいえ |
-> | servers / securityalertpolicies | いいえ | いいえ |
-> | servers / serviceobjectives | いいえ | いいえ |
-> | servers / syncagents | いいえ | いいえ |
-> | servers / tdecertificates | いいえ | いいえ |
-> | servers / usages | いいえ | いいえ |
-> | servers / virtualnetworkrules | いいえ | いいえ |
-> | servers / vulnerabilityassessments | いいえ | × |
-> | virtualclusters | はい | はい |
+> | servers / jobagents / jobs | × | × |
+> | servers / jobagents / jobs / executions | × | × |
+> | servers / jobagents / jobs / steps | × | × |
+> | servers / keys | × | × |
+> | servers / operationresults | × | × |
+> | servers / recommendedelasticpools | × | × |
+> | servers / recoverabledatabases | × | × |
+> | servers / restorabledroppeddatabases | × | × |
+> | servers / securityalertpolicies | × | × |
+> | servers / serviceobjectives | × | × |
+> | servers / syncagents | × | × |
+> | servers / tdecertificates | × | × |
+> | servers / usages | × | × |
+> | servers / virtualnetworkrules | × | × |
+> | servers / vulnerabilityassessments | × | × |
+> | virtualclusters | ○ | ○ |
 
 ## <a name="microsoftsqlvirtualmachine"></a>Microsoft.SqlVirtualMachine
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / availabilitygrouplisteneroperationresults | いいえ | いいえ |
-> | locations / operationtypes | いいえ | いいえ |
-> | locations / sqlvirtualmachinegroupoperationresults | いいえ | いいえ |
-> | locations / sqlvirtualmachineoperationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | sqlvirtualmachinegroups | はい | はい |
-> | sqlvirtualmachinegroups / availabilitygrouplisteners | いいえ | いいえ |
-> | sqlvirtualmachines | はい | はい |
+> | locations | × | × |
+> | locations / availabilitygrouplisteneroperationresults | × | × |
+> | locations / operationtypes | × | × |
+> | locations / sqlvirtualmachinegroupoperationresults | × | × |
+> | locations / sqlvirtualmachineoperationresults | × | × |
+> | operations | × | × |
+> | sqlvirtualmachinegroups | ○ | ○ |
+> | sqlvirtualmachinegroups / availabilitygrouplisteners | × | × |
+> | sqlvirtualmachines | ○ | ○ |
 
 ## <a name="microsoftstorage"></a>Microsoft.Storage
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / asyncoperations | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | locations / deletevirtualnetworkorsubnets | いいえ | いいえ |
-> | locations / usages | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | storageaccounts | はい | はい |
-> | storageaccounts / blobservices | いいえ | いいえ |
-> | storageaccounts / fileservices | いいえ | いいえ |
-> | storageaccounts / listaccountsas | いいえ | いいえ |
-> | storageaccounts / listservicesas | いいえ | いいえ |
-> | storageaccounts / queueservices | いいえ | いいえ |
-> | storageaccounts / services | いいえ | いいえ |
-> | storageaccounts / services / metricdefinitions | いいえ | いいえ |
-> | storageaccounts / tableservices | いいえ | いいえ |
-> | usages | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | locations | × | × |
+> | locations / asyncoperations | × | × |
+> | locations / checknameavailability | × | × |
+> | locations / deletevirtualnetworkorsubnets | × | × |
+> | locations / usages | × | × |
+> | operations | × | × |
+> | storageaccounts | ○ | ○ |
+> | storageaccounts / blobservices | × | × |
+> | storageaccounts / fileservices | × | × |
+> | storageaccounts / listaccountsas | × | × |
+> | storageaccounts / listservicesas | × | × |
+> | storageaccounts / queueservices | × | × |
+> | storageaccounts / services | × | × |
+> | storageaccounts / services / metricdefinitions | × | × |
+> | storageaccounts / tableservices | × | × |
+> | usages | × | × |
 
 ## <a name="microsoftstoragecache"></a>Microsoft.StorageCache
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | caches | いいえ | いいえ |
+> | caches | × | × |
 
 ## <a name="microsoftstoragesync"></a>Microsoft.StorageSync
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / checknameavailability | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / operations | いいえ | いいえ |
-> | locations / workflows | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | storagesyncservices | はい | はい |
-> | storagesyncservices / registeredservers | いいえ | いいえ |
-> | storagesyncservices / syncgroups | いいえ | いいえ |
-> | storagesyncservices / syncgroups / cloudendpoints | いいえ | いいえ |
-> | storagesyncservices / syncgroups / serverendpoints | いいえ | いいえ |
-> | storagesyncservices / workflows | いいえ | いいえ |
+> | locations | × | × |
+> | locations / checknameavailability | × | × |
+> | locations / operationresults | × | × |
+> | locations / operations | × | × |
+> | locations / workflows | × | × |
+> | operations | × | × |
+> | storagesyncservices | ○ | ○ |
+> | storagesyncservices / registeredservers | × | × |
+> | storagesyncservices / syncgroups | × | × |
+> | storagesyncservices / syncgroups / cloudendpoints | × | × |
+> | storagesyncservices / syncgroups / serverendpoints | × | × |
+> | storagesyncservices / workflows | × | × |
 
 ## <a name="microsoftstoragesyncdev"></a>Microsoft.StorageSyncDev
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | storagesyncservices | いいえ | いいえ |
+> | storagesyncservices | × | × |
 
 ## <a name="microsoftstoragesyncint"></a>Microsoft.StorageSyncInt
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | storagesyncservices | いいえ | いいえ |
+> | storagesyncservices | × | × |
 
 ## <a name="microsoftstorsimple"></a>Microsoft.StorSimple
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | managers | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | managers | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftstreamanalytics"></a>Microsoft.StreamAnalytics
 
@@ -3018,95 +3018,95 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | clusters | いいえ | × |
-> | locations | いいえ | × |
-> | locations / quotas | いいえ | × |
-> | operations | いいえ | × |
-> | streamingjobs | はい | ○ |
+> | clusters | × | × |
+> | locations | × | × |
+> | locations / quotas | × | × |
+> | operations | × | × |
+> | streamingjobs | ○ | ○ |
 
 ## <a name="microsoftstreamanalyticsexplorer"></a>Microsoft.StreamAnalyticsExplorer
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | 環境 | いいえ | いいえ |
-> | environments/eventsources | いいえ | いいえ |
-> | instances | いいえ | いいえ |
-> | instances/environments | いいえ | いいえ |
-> | instances/environments/eventsources | いいえ | いいえ |
+> | 環境 | × | × |
+> | environments/eventsources | × | × |
+> | instances | × | × |
+> | instances/environments | × | × |
+> | instances/environments/eventsources | × | × |
 
 ## <a name="microsoftsubscription"></a>Microsoft.Subscription
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | cancel | いいえ | いいえ |
-> | createsubscription | いいえ | いいえ |
-> | 有効化 (enable) | いいえ | いいえ |
-> | operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | rename | いいえ | いいえ |
-> | subscriptiondefinitions | いいえ | いいえ |
-> | subscriptionoperations | いいえ | いいえ |
-> | subscriptions | いいえ | いいえ |
+> | cancel | × | × |
+> | createsubscription | × | × |
+> | 有効化 (enable) | × | × |
+> | operationresults | × | × |
+> | operations | × | × |
+> | rename | × | × |
+> | subscriptiondefinitions | × | × |
+> | subscriptionoperations | × | × |
+> | subscriptions | × | × |
 
 ## <a name="microsoftsupport"></a>microsoft.support
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | operationresults | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | operationsstatus | いいえ | いいえ |
-> | services | いいえ | いいえ |
-> | services / problemclassifications | いいえ | いいえ |
-> | supporttickets | いいえ | いいえ |
+> | checknameavailability | × | × |
+> | operationresults | × | × |
+> | operations | × | × |
+> | operationsstatus | × | × |
+> | services | × | × |
+> | services / problemclassifications | × | × |
+> | supporttickets | × | × |
 
 ## <a name="microsoftsynapse"></a>Microsoft.Synapse
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | checknameavailability | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | workspaces | はい | はい |
-> | workspaces / bigdatapools | はい | はい |
-> | workspaces / operationresults | いいえ | いいえ |
-> | workspaces / operationstatuses | いいえ | いいえ |
-> | workspaces / sqlpools | はい | はい |
+> | checknameavailability | × | × |
+> | operations | × | × |
+> | workspaces | ○ | ○ |
+> | workspaces / bigdatapools | ○ | ○ |
+> | workspaces / operationresults | × | × |
+> | workspaces / operationstatuses | × | × |
+> | workspaces / sqlpools | ○ | ○ |
 
 ## <a name="microsofttimeseriesinsights"></a>Microsoft.TimeSeriesInsights
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | 環境 | はい | はい |
-> | environments / accesspolicies | いいえ | いいえ |
-> | environments/eventsources | はい | はい |
-> | environments/referencedatasets | はい | はい |
-> | operations | いいえ | いいえ |
+> | 環境 | ○ | ○ |
+> | environments / accesspolicies | × | × |
+> | environments/eventsources | ○ | ○ |
+> | environments/referencedatasets | ○ | ○ |
+> | operations | × | × |
 
 ## <a name="microsofttoken"></a>Microsoft.Token
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | stores | はい | はい |
-> | stores / accesspolicies | いいえ | いいえ |
-> | stores / services | いいえ | いいえ |
-> | stores / services / tokens | いいえ | いいえ |
+> | stores | ○ | ○ |
+> | stores / accesspolicies | × | × |
+> | stores / services | × | × |
+> | stores / services / tokens | × | × |
 
 ## <a name="microsoftvirtualmachineimages"></a>Microsoft.VirtualMachineImages
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | imagetemplates | いいえ | いいえ |
-> | imagetemplates / runoutputs | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operations | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | imagetemplates | × | × |
+> | imagetemplates / runoutputs | × | × |
+> | locations | × | × |
+> | locations / operations | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftvisualstudio"></a>microsoft.visualstudio
 
@@ -3116,65 +3116,65 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | account | いいえ | × |
-> | account / extension | いいえ | × |
-> | account/project | いいえ | × |
-> | checknameavailability | いいえ | × |
-> | operations | いいえ | いいえ |
+> | account | × | × |
+> | account / extension | × | × |
+> | account/project | × | × |
+> | checknameavailability | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftvmware"></a>Microsoft.VMware
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | arczones | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | resourcepools | いいえ | いいえ |
-> | vcenters | いいえ | いいえ |
-> | virtualmachines | いいえ | いいえ |
-> | virtualmachinetemplates | いいえ | いいえ |
-> | virtualnetworks | いいえ | いいえ |
+> | arczones | × | × |
+> | locations | × | × |
+> | locations / operationstatuses | × | × |
+> | operations | × | × |
+> | resourcepools | × | × |
+> | vcenters | × | × |
+> | virtualmachines | × | × |
+> | virtualmachinetemplates | × | × |
+> | virtualnetworks | × | × |
 
 ## <a name="microsoftvmwarecloudsimple"></a>Microsoft.VMwareCloudSimple
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | dedicatedcloudnodes | いいえ | いいえ |
-> | dedicatedcloudservices | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / availabilities | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / privateclouds | いいえ | いいえ |
-> | locations / privateclouds / resourcepools | いいえ | いいえ |
-> | locations / privateclouds / virtualmachinetemplates | いいえ | いいえ |
-> | locations / privateclouds / virtualnetworks | いいえ | いいえ |
-> | locations / usages | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | virtualmachines | いいえ | いいえ |
+> | dedicatedcloudnodes | × | × |
+> | dedicatedcloudservices | × | × |
+> | locations | × | × |
+> | locations / availabilities | × | × |
+> | locations / operationresults | × | × |
+> | locations / privateclouds | × | × |
+> | locations / privateclouds / resourcepools | × | × |
+> | locations / privateclouds / virtualmachinetemplates | × | × |
+> | locations / privateclouds / virtualnetworks | × | × |
+> | locations / usages | × | × |
+> | operations | × | × |
+> | virtualmachines | × | × |
 
 ## <a name="microsoftvnfmanager"></a>Microsoft.VnfManager
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | devices | いいえ | いいえ |
-> | locations | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | vnfs | いいえ | いいえ |
+> | devices | × | × |
+> | locations | × | × |
+> | locations / operationstatuses | × | × |
+> | operations | × | × |
+> | vnfs | × | × |
 
 ## <a name="microsoftvsonline"></a>Microsoft.VSOnline
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | accounts | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | plans | いいえ | いいえ |
-> | registeredsubscriptions | いいえ | いいえ |
+> | accounts | × | × |
+> | operations | × | × |
+> | plans | × | × |
+> | registeredsubscriptions | × | × |
 
 ## <a name="microsoftweb"></a>Microsoft.Web
 
@@ -3184,98 +3184,98 @@ ms.locfileid: "87079511"
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | availablestacks | いいえ | × |
-> | billingmeters | いいえ | × |
-> | certificates | いいえ | [はい] |
-> | checknameavailability | いいえ | × |
-> | connectiongateways | はい | ○ |
-> | connections | はい | ○ |
-> | customapis | はい | ○ |
-> | deletedsites | いいえ | × |
-> | deploymentlocations | いいえ | × |
-> | georegions | いいえ | × |
-> | hostingenvironments | いいえ | × |
-> | hostingenvironments / eventgridfilters | いいえ | × |
-> | hostingenvironments / multirolepools | いいえ | × |
-> | hostingenvironments / workerpools | いいえ | × |
-> | ishostingenvironmentnameavailable | いいえ | × |
-> | ishostnameavailable | いいえ | いいえ |
-> | isusernameavailable | いいえ | × |
-> | kubeenvironments | はい | ○ |
-> | listsitesassignedtohostname | いいえ | × |
-> | locations | いいえ | いいえ |
-> | locations / apioperations | いいえ | いいえ |
-> | locations / connectiongatewayinstallations | いいえ | いいえ |
-> | locations / deletedsites | いいえ | いいえ |
-> | locations / deletevirtualnetworkorsubnets | いいえ | いいえ |
-> | locations / extractapidefinitionfromwsdl | いいえ | いいえ |
-> | locations / getnetworkpolicies | いいえ | いいえ |
-> | locations / listwsdlinterfaces | いいえ | いいえ |
-> | locations / managedapis | いいえ | いいえ |
-> | locations / operationresults | いいえ | いいえ |
-> | locations / operations | いいえ | いいえ |
-> | locations / runtimes | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | publishingusers | いいえ | いいえ |
-> | recommendations | いいえ | いいえ |
-> | resourcehealthmetadata | いいえ | いいえ |
-> | runtimes | いいえ | いいえ |
-> | serverfarms | はい | はい |
-> | serverfarms / eventgridfilters | いいえ | いいえ |
-> | sites | はい | はい |
-> | sites / eventgridfilters | いいえ | いいえ |
-> | sites / hostnamebindings | いいえ | いいえ |
-> | sites / networkconfig | いいえ | いいえ |
-> | sites/premieraddons | はい | はい |
-> | sites/slots | はい | はい |
-> | sites / slots / eventgridfilters | いいえ | いいえ |
-> | sites / slots / hostnamebindings | いいえ | いいえ |
-> | sites / slots / networkconfig | いいえ | いいえ |
-> | sourcecontrols | いいえ | いいえ |
-> | staticsites | いいえ | いいえ |
-> | validate | いいえ | いいえ |
-> | verifyhostingenvironmentvnet | いいえ | いいえ |
+> | availablestacks | × | × |
+> | billingmeters | × | × |
+> | certificates | × | [○] |
+> | checknameavailability | × | × |
+> | connectiongateways | ○ | ○ |
+> | connections | ○ | ○ |
+> | customapis | ○ | ○ |
+> | deletedsites | × | × |
+> | deploymentlocations | × | × |
+> | georegions | × | × |
+> | hostingenvironments | × | × |
+> | hostingenvironments / eventgridfilters | × | × |
+> | hostingenvironments / multirolepools | × | × |
+> | hostingenvironments / workerpools | × | × |
+> | ishostingenvironmentnameavailable | × | × |
+> | ishostnameavailable | × | × |
+> | isusernameavailable | × | × |
+> | kubeenvironments | ○ | ○ |
+> | listsitesassignedtohostname | × | × |
+> | locations | × | × |
+> | locations / apioperations | × | × |
+> | locations / connectiongatewayinstallations | × | × |
+> | locations / deletedsites | × | × |
+> | locations / deletevirtualnetworkorsubnets | × | × |
+> | locations / extractapidefinitionfromwsdl | × | × |
+> | locations / getnetworkpolicies | × | × |
+> | locations / listwsdlinterfaces | × | × |
+> | locations / managedapis | × | × |
+> | locations / operationresults | × | × |
+> | locations / operations | × | × |
+> | locations / runtimes | × | × |
+> | operations | × | × |
+> | publishingusers | × | × |
+> | recommendations | × | × |
+> | resourcehealthmetadata | × | × |
+> | runtimes | × | × |
+> | serverfarms | ○ | ○ |
+> | serverfarms / eventgridfilters | × | × |
+> | sites | ○ | ○ |
+> | sites / eventgridfilters | × | × |
+> | sites / hostnamebindings | × | × |
+> | sites / networkconfig | × | × |
+> | sites/premieraddons | ○ | ○ |
+> | sites/slots | ○ | ○ |
+> | sites / slots / eventgridfilters | × | × |
+> | sites / slots / hostnamebindings | × | × |
+> | sites / slots / networkconfig | × | × |
+> | sourcecontrols | × | × |
+> | staticsites | × | × |
+> | validate | × | × |
+> | verifyhostingenvironmentvnet | × | × |
 
 ## <a name="microsoftwindowsesu"></a>Microsoft.WindowsESU
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | multipleactivationkeys | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | locations | × | × |
+> | locations / operationstatuses | × | × |
+> | multipleactivationkeys | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftwindowsiot"></a>Microsoft.WindowsIoT
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | deviceservices | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | deviceservices | × | × |
+> | operations | × | × |
 
 ## <a name="microsoftworkloadbuilder"></a>Microsoft.WorkloadBuilder
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | locations | いいえ | いいえ |
-> | locations / operationstatuses | いいえ | いいえ |
-> | operations | いいえ | いいえ |
-> | workloads | いいえ | いいえ |
+> | locations | × | × |
+> | locations / operationstatuses | × | × |
+> | operations | × | × |
+> | workloads | × | × |
 
 ## <a name="microsoftworkloadmonitor"></a>Microsoft.WorkloadMonitor
 
 > [!div class="mx-tableFixed"]
 > | リソースの種類 | Resource group | サブスクリプション |
 > | ------------- | ----------- | ---------- |
-> | components | いいえ | いいえ |
-> | componentssummary | いいえ | いいえ |
-> | monitorinstances | いいえ | いいえ |
-> | monitorinstancessummary | いいえ | いいえ |
-> | monitors | いいえ | いいえ |
-> | notificationsettings | いいえ | いいえ |
-> | operations | いいえ | いいえ |
+> | components | × | × |
+> | componentssummary | × | × |
+> | monitorinstances | × | × |
+> | monitorinstancessummary | × | × |
+> | monitors | × | × |
+> | notificationsettings | × | × |
+> | operations | × | × |
 
 ## <a name="third-party-services"></a>サード パーティーのサービス
 
